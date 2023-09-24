@@ -4,7 +4,7 @@ import { DemoCarousel } from "../components/DemoCarousel";
 import { Descripcion } from "../components/Descripcion";
 import { DetallesUnidad } from "../components/DetallesUnidad";
 
-import NavBar from "../components/NavBar";
+import { NavBar } from "../components/NavBar";
 
 import "./Terrazol1.css";
 export const Terrazol1 = () => {

@@ -2,9 +2,9 @@ import React from "react";
 import gitlogoblack from "../assets/img/gitlogoblack.png";
 import whatsapplogoblack from "../assets/img/whatsapplogoblack.png";
 import menublack from "../assets/img/menublack.png";
-import "../styles/Navbar.css";
+import "../styles/NavBar.css";
 
-const Navbar = () => {
+export const NavBar = () => {
   return (
     <nav className="nav-header">
       <div className="nav-container">
@@ -27,5 +27,3 @@ const Navbar = () => {
     </nav>
   );
 };
-
-export default Navbar;

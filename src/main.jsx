@@ -9,7 +9,6 @@ import { Header } from "./components/Header";
 import { Proyectos } from "./components/Proyectos";
 import { Descripcion } from "./components/Descripcion";
 import { Caracteristicas } from "./components/Caracteristicas";
-import NavBar from "./components/NavBar";
 import { DetallesUnidad } from "./components/DetallesUnidad";
 import { DemoCarousel } from "./components/DemoCarousel";
 import { ContactMini } from "./components/ContactMini";
