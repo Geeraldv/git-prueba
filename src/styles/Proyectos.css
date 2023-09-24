@@ -1,0 +1,33 @@
+.proyect-container {
+  background-color: red;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.title__body img {
+  width: 147px;
+}
+
+.title__proyects {
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.proyects__content {
+  display: flex;
+  justify-content: center;
+}
+
+.card__proyect {
+  width: 50%;
+  height: 350px;
+  background-color: #fff;
+  margin: 20px;
+}
+
+.card__proyect img {
+  width: 100%;
+  height: 100%;
+}

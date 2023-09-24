@@ -1,0 +1,19 @@
+.Detalles-proyectos {
+  width: 100%;
+  background-color: #f5f5f5;
+  display: flex;
+  padding-top: 40px;
+}
+
+.colunm-detalles-1 {
+  flex: 1; /* Haz que ocupe el espacio restante en el contenedor */
+  padding: 25px; /* Agrega un poco de espacio entre los dos columnas */
+}
+
+.colunm-detalles-2 {
+  width: 22%;
+  position: sticky; /* Establece la posición pegajosa */
+  top: 0; /* Fija el contenido en la parte superior del contenedor */
+  height: 100vh; /* Establece la altura máxima al tamaño de la ventana */
+  padding-left: 15px; /* Agrega un poco de espacio en el lado izquierdo */
+}

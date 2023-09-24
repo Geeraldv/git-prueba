@@ -1,0 +1,107 @@
+/* Estilos para el nuevo componente BuenasManos */
+.BuenasManos-container {
+  width: 98.1%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+.img-buenasmanos img {
+  width: 100%;
+  max-width: 804px;
+  box-shadow: 0px 26px 16px rgba(0, 0, 0, 0.25);
+  margin-top: 20px;
+}
+
+.rayita-buenasmanos {
+  width: 100%;
+  max-width: 169px;
+  margin-top: 20px;
+}
+
+.info-container {
+  width: 100%;
+  max-width: 474px;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-right: 120px;
+}
+
+.info-container h1 {
+  font-size: 40px;
+  line-height: 50px;
+  margin-bottom: 20px;
+}
+
+.info-container p {
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: -0.503px;
+}
+
+.btn-buenasmanos {
+  background-color: #335b74;
+  border-radius: 0px 18px 0px 0px;
+  color: #fff;
+  text-decoration: none;
+  width: 40%;
+  height: 52px;
+  margin-top: 20px;
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+/* Estilos para pantallas medianas y pequeñas */
+@media (max-width: 768px) {
+  .BuenasManos-container {
+    padding: 10px;
+  }
+
+  .img-buenasmanos img {
+    max-width: 100%;
+    margin-top: 10px;
+    margin-right: 0;
+  }
+
+  .rayita-buenasmanos {
+    max-width: 145px;
+  }
+
+  .info-container {
+    max-width: 100%;
+    padding: 10px;
+    margin-left: 0;
+  }
+
+  .info-container h1 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .info-container p {
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: -0.4px;
+    text-align: justify;
+  }
+
+  .btn-buenasmanos {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+/* Estilos para pantallas pequeñas */
+@media (max-width: 480px) {
+  .btn-buenasmanos {
+    width: 100%;
+    justify-content: center;
+  }
+}
