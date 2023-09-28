@@ -1,0 +1,80 @@
+.sidenav {
+  height: 100%;
+  width: 350px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: white; /* Cambia el fondo a blanco */
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+  transition: 0.5s, transform 0.5s; /* Agrega transición para transform */
+  transform: translateX(350px);
+}
+
+.sidenav.open {
+  transform: translateX(0); /* Mueve el sidebar hacia la posición visible */
+}
+
+/* Los estilos de los enlaces */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: black; /* Cambia el color del texto a negro */
+  display: block;
+  transition: 0.3s;
+}
+
+/* Cuando pasas el mouse sobre los enlaces de navegación, cambia su color */
+.sidenav a:hover,
+.offcanvas a:focus {
+  color: #818181; /* Cambia el color al color original al pasar el mouse */
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left 0.5s;
+  padding: 20px;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 83.5%; /* Cambia el ancho al 100% para cubrir todo el viewport */
+  height: 100%;
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.6
+  ); /* Fondo semi-transparente oscuro cuando el sidebar está abierto */
+  z-index: 1; /* Asegura que el overlay esté por encima del contenido cuando esté activo */
+  transition: background-color 0.5s; /* Transición de color de fondo */
+  pointer-events: none; /* Evitar que el overlay interrumpa la interacción con la página cuando esté oculto */
+}
+
+/* Estilo cuando el sidebar está abierto */
+.overlay.open {
+  pointer-events: auto; /* Habilita la interacción con el overlay cuando está activo */
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}

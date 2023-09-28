@@ -1,4 +1,5 @@
 import "../styles/ContactMini.css";
+import profileimg from "../assets/img/Profileimg.png";
 
 export const ContactMini = () => {
   return (
@@ -6,8 +7,8 @@ export const ContactMini = () => {
       <div className="custom-contact-container">
         <div className="custom-emo">
           <div className="custom-emo2">
-            <img src="img.png" />
-            <p>Juan Olivero</p>
+            <img src={profileimg} />
+            <p>Paola Olivero</p>
           </div>
         </div>
 

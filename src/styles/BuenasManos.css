@@ -1,50 +1,53 @@
-/* Estilos para el nuevo componente BuenasManos */
+/* Estilos para el componente BuenasManos */
 .BuenasManos-container {
-  width: 98.1%;
+  width: 100%;
   height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
   flex-direction: row-reverse;
   padding: 20px;
-  background-color: #f5f5f5;
+  box-sizing: border-box;
+  margin-bottom: 6%;
+  background-color: #e4e4e4;
 }
 
-.img-buenasmanos img {
+.img-buenas-manos img {
   width: 100%;
-  max-width: 804px;
+  max-width: 704px;
   box-shadow: 0px 26px 16px rgba(0, 0, 0, 0.25);
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
-.rayita-buenasmanos {
+.rayita-buenas-manos {
   width: 100%;
   max-width: 169px;
   margin-top: 20px;
 }
 
-.info-container {
+.BuenasManos-content {
   width: 100%;
   max-width: 474px;
   padding: 20px;
   box-sizing: border-box;
-  margin-right: 120px;
+  margin-right: 6%;
 }
 
-.info-container h1 {
+.BuenasManos-content h1 {
   font-size: 40px;
   line-height: 50px;
   margin-bottom: 20px;
 }
 
-.info-container p {
-  font-size: 25px;
+.BuenasManos-content p {
+  font-size: 20px;
   line-height: 30px;
+  font-weight: 400;
   letter-spacing: -0.503px;
+  margin-bottom: 50px;
 }
 
-.btn-buenasmanos {
+.btn-buenas-manos {
   background-color: #335b74;
   border-radius: 0px 18px 0px 0px;
   color: #fff;
@@ -61,38 +64,40 @@
 /* Estilos para pantallas medianas y pequeñas */
 @media (max-width: 768px) {
   .BuenasManos-container {
+    flex-direction: column;
     padding: 10px;
+    height: 100%;
   }
 
-  .img-buenasmanos img {
+  .img-buenas-manos img {
     max-width: 100%;
     margin-top: 10px;
     margin-right: 0;
   }
 
-  .rayita-buenasmanos {
+  .rayita-buenas-manos {
     max-width: 145px;
   }
 
-  .info-container {
+  .BuenasManos-content {
     max-width: 100%;
     padding: 10px;
     margin-left: 0;
   }
 
-  .info-container h1 {
+  .BuenasManos-content h1 {
     font-size: 30px;
     line-height: 40px;
   }
 
-  .info-container p {
+  .BuenasManos-content p {
     font-size: 20px;
     line-height: 26px;
     letter-spacing: -0.4px;
     text-align: justify;
   }
 
-  .btn-buenasmanos {
+  .btn-buenas-manos {
     width: 100%;
     justify-content: center;
   }
@@ -100,7 +105,7 @@
 
 /* Estilos para pantallas pequeñas */
 @media (max-width: 480px) {
-  .btn-buenasmanos {
+  .btn-buenas-manos {
     width: 100%;
     justify-content: center;
   }

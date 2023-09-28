@@ -27,7 +27,7 @@
   display: flex;
   width: 100%;
   height: auto;
-  padding: 30px;
+  padding: 30px 10px;
 }
 .lista__details1 {
   margin: 10px;
@@ -54,7 +54,7 @@
 }
 @media screen and (max-width: 670px) {
   .container__descri1 {
-    width: 100%;
+    height: 100%;
   }
   .lista__details2 {
     margin: 0px 0px 0px 10px;
@@ -73,5 +73,6 @@
     display: flex;
     flex-direction: column;
     height: auto;
+    padding: 0px;
   }
 }

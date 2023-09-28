@@ -5,15 +5,15 @@ import raya from "../assets/img/raya.png";
 export const BuenasManos = () => {
   return (
     <div className="BuenasManos-container">
-      <div className="img-buenasmanos">
+      <div className="img-buenas-manos">
         <img src={ImgBuenasManos} alt="Buenas Manos" />
       </div>
 
-      <div className="info-container">
-        <img className="rayita-buenasmanos" src={raya} alt="Rayita" />
+      <div className="BuenasManos-content">
+        <img className="rayita-buenas-manos" src={raya} alt="Rayita" />
         <h1>Estás en buenas manos.</h1>
 
-        <p className="txt-buenasmanos">
+        <p className="txt-buenas-manos">
           Confía en nuestra constructora, donde la calidad y el compromiso son
           nuestras principales fortalezas. Estamos dedicados a brindarte un
           servicio excepcional, asegurándonos de que cada detalle de tu proyecto

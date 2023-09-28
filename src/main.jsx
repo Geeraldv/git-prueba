@@ -1,21 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import { AcercaDe } from "./components/AcercaDe";
-import { BuenasManos } from "./components/BuenasManos";
-import { Contacto } from "./components/Contacto";
-import { Testimonios } from "./components/Testimonios";
-import { Header } from "./components/Header";
-import { Proyectos } from "./components/Proyectos";
-import { Descripcion } from "./components/Descripcion";
-import { Caracteristicas } from "./components/Caracteristicas";
-import { DetallesUnidad } from "./components/DetallesUnidad";
-import { DemoCarousel } from "./components/DemoCarousel";
-import { ContactMini } from "./components/ContactMini";
 import { Home } from "./pages/Home";
 import { Terrazol1 } from "./pages/Terrazol1";
-
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { AcercaDeDetallesPage } from "./pages/AcercaDeDetallesPage";
+
+import { Terrazasdelparque1 } from "./pages/Terrazasdelparque1";
+import { Terrazasdelparque2 } from "./pages/Terrazasdelparque2";
 
 const BrowserRouter = createBrowserRouter([
   {
@@ -26,24 +18,23 @@ const BrowserRouter = createBrowserRouter([
     path: "/Terrazol1",
     element: <Terrazol1 />,
   },
+  ,
+  {
+    path: "/AcercaDeDetalles",
+    element: <AcercaDeDetallesPage />,
+  },
+  {
+    path: "/Terrazasdelparque1",
+    element: <Terrazasdelparque1 />,
+  },
+  {
+    path: "/Terrazasdelparque2",
+    element: <Terrazasdelparque2 />,
+  },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    {/* <Header />
-    <AcercaDe />
-    <BuenasManos />
-    <Testimonios />
-    <Proyectos />
-    <Contacto />
-     <NavBar />
-    <DetallesUnidad />
-    <ContactMini />
-    <DemoCarousel />
-    <Descripcion />
-    <Caracteristicas />
-  */}
-
     <RouterProvider router={BrowserRouter} />
   </React.StrictMode>
 );

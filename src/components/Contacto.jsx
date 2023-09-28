@@ -27,7 +27,7 @@ export const Contacto = () => {
   };
 
   return (
-    <div className="contacto-container">
+    <div className="contacto-container" id="Contactos">
       <div className="contacto-form">
         <h1 className="contacto-h1">CONTACTANOS</h1>
         <div className="contacto-part1">

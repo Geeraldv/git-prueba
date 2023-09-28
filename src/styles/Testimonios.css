@@ -5,6 +5,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-bottom: 200px;
 }
 
 .testimonios__title {
@@ -63,4 +64,30 @@
   background-color: black;
   color: white;
   height: 90px;
+}
+
+@media (max-width: 460px) {
+  .testimonios__card {
+    align-items: center;
+    width: 320px; /* Cambia el ancho a 100% para adaptarse a la pantalla estrecha */
+  }
+
+  .testimonios__card__title h2 {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  .testimonios__card__body img {
+    margin-left: 0;
+  }
+
+  .testimonios__card__body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    width: 320px;
+    height: 90px;
+  }
 }

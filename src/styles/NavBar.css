@@ -45,7 +45,8 @@
 
 @media (max-width: 760px) {
   .nav-header a.logo-ws,
-  .nav-header a.contact {
+  .nav-header a.contact,
+  .nav-header a.proyect {
     display: none;
   }
   .nav-header a {

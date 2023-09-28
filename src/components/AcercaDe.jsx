@@ -1,10 +1,11 @@
 import "../styles/AcercaDe.css";
 import ImgAcercaDe from "../assets/img/AcercaDe.png";
 import raya from "../assets/img/raya.png";
+import { Link } from "react-router-dom";
 
 export const AcercaDe = () => {
   return (
-    <div className="Acerca-container">
+    <div id="AcercaDe" className="Acerca-container">
       <div className="img-acerca">
         <img src={ImgAcercaDe} />
       </div>
@@ -20,7 +21,7 @@ export const AcercaDe = () => {
           productos que mantengan su belleza y firmeza aún con el paso del
           tiempo.
         </p>
-        <a className="btn-acerca" href="">
+        <Link to="/AcercaDeDetalles" className="btn-acerca">
           Ver más
           <svg
             className=""
@@ -35,7 +36,7 @@ export const AcercaDe = () => {
               fill="#fff"
             />
           </svg>
-        </a>
+        </Link>
       </div>
     </div>
   );

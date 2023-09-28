@@ -1,0 +1,24 @@
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/Terrazol1/*"
+  to = "/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/AcercaDeDetalles/*"
+  to = "/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/Terrazasdelparque1/*"
+  to = "/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/Terrazasdelparque2/*"
+  to = "/index.html"
+  status = 200

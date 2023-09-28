@@ -1,0 +1,140 @@
+/* Estilos para tamaños de pantalla mayores */
+.tipo-apartamento-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: #ffffff;
+  margin-top: 20px;
+  border-radius: 25px;
+}
+
+.tipo-apartamento {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
+.tipo-apartamento-img img {
+  width: 400px;
+  height: 400px;
+
+  border-radius: 25px;
+}
+
+.tipo-apartamento-info h4 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #335b74;
+}
+
+.tipo-apartamento-info h3 {
+  font-size: 20px;
+  color: #000000;
+}
+
+.tipo-apartamento-info span {
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: #335b74;
+}
+
+.tipo-apartamento-info p {
+  font-size: 20px;
+  color: #000000;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.tipo-apartamento-info ul::marker {
+  color: #335b74;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.tipo-apartamento-info ul li {
+  line-height: 25px;
+}
+
+.tipo-apartamento-botones {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.tipo-apartamento-botones button {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #335b74;
+  transition: all 0.3s ease-in-out;
+}
+
+.tipo-apartamento-botones button:hover {
+  background-color: #3498db;
+}
+
+/* Estilos para tamaños de pantalla medianos y pequeños */
+@media (max-width: 1150px) {
+  .tipo-apartamento {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .tipo-apartamento-botones {
+    flex-wrap: wrap;
+  }
+  .tipo-apartamento-botones button {
+    margin-bottom: 10px;
+  }
+  .tipo-apartamento-img img {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+  }
+
+  .tipo-apartamento-info h4,
+  .tipo-apartamento-info h3 {
+    font-size: 20px;
+  }
+
+  .tipo-apartamento-info span,
+  .tipo-apartamento-info p,
+  .tipo-apartamento-info ul::marker,
+  .tipo-apartamento-info ul li,
+  .tipo-apartamento-botones button {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .tipo-apartamento-img img {
+    width: 250px;
+    height: 250px;
+  }
+
+  .tipo-apartamento-info {
+    width: 70%;
+  }
+
+  .tipo-apartamento-info h4,
+  .tipo-apartamento-info h3 {
+    font-size: 18px;
+  }
+  .tipo-apartamento-info span,
+  .tipo-apartamento-info span,
+  .tipo-apartamento-info p,
+  .tipo-apartamento-info ul::marker,
+  .tipo-apartamento-info ul li,
+  .tipo-apartamento-botones button {
+    font-size: 14px;
+  }
+}
