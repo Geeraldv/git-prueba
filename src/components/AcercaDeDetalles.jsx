@@ -1,8 +1,8 @@
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import "../styles/AcercaDeDetalles.css";
-import gitLogo from "../assets/img/gitlogo.png";
+
 import gitlogoacerca from "../assets/img/gitlogoacerca.png";
-import gitLogoBlackk from "../assets/img/GitLogoBlackk.png";
+import gitLogoBlackk from "../assets/img/gitLogoBlackk.png";
 import terrazasdelparquelogo from "../assets/img/terrazasdelparquelogo.png";
 import { Carousel } from "react-responsive-carousel";
 
