@@ -10,7 +10,7 @@ export const Footer = () => {
         <ul className="logo">
           <li>
             <a href="tu_enlace.html">
-              <img src={gitlogo} alt="Logo" />
+              <img src={gitlogo} loading="lazy" alt="Logo" />
             </a>
           </li>
           <li className="inline-item">
@@ -47,12 +47,6 @@ export const Footer = () => {
           </li>
           <li>
             <a href="#punto2">Proyectos</a>
-          </li>
-          <li>
-            <a href="#punto3">Estás en buenas manos</a>
-          </li>
-          <li>
-            <a href="#punto4">Testimonios</a>
           </li>
           <li>
             <a href="#punto5">Contactanos</a>

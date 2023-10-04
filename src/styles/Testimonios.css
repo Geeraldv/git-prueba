@@ -66,6 +66,12 @@
   height: 90px;
 }
 
+@media (max-width: 750px) {
+  .testimonios__container {
+    margin-bottom: 10px;
+  }
+}
+
 @media (max-width: 460px) {
   .testimonios__card {
     align-items: center;

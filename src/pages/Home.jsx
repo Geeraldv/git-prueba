@@ -8,6 +8,8 @@ import { SideBar } from "../components/SideBar";
 import { Proyectos } from "../components/Proyectos";
 import { Footer } from "../components/Footer";
 import useScrollToTop from "../hooks/useScrollToTop";
+
+import { FloatingWhatsApp } from "react-floating-whatsapp";
 import "./Home.css";
 
 export const Home = () => {
@@ -23,6 +25,7 @@ export const Home = () => {
   useScrollToTop();
   return (
     <>
+      <FloatingWhatsApp />
       <Header toggleSidebar={toggleSidebar} />
       <SideBar isOpen={isSidebarOpen} closeSidebar={closeSidebar} />
       <AcercaDe />

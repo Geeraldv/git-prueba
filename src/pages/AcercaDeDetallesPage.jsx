@@ -3,6 +3,7 @@ import { AcercaDeDetalles } from "../components/AcercaDeDetalles";
 import { SideBar } from "../components/SideBar";
 import { useState } from "react";
 import { Footer } from "../components/Footer";
+import useScrollToTop from "../hooks/useScrollToTop";
 
 export const AcercaDeDetallesPage = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -15,6 +16,7 @@ export const AcercaDeDetallesPage = () => {
     setIsSidebarOpen(false);
   };
 
+  useScrollToTop();
   return (
     <>
       <NavBar toggleSidebar={toggleSidebar} />

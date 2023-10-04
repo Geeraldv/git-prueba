@@ -161,6 +161,13 @@
   }
 }
 
+@media (max-width: 750px) {
+  .container-padre {
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+}
+
 @media (max-width: 610px) {
   .container-1-c {
     width: 100%;

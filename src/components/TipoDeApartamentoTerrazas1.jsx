@@ -169,7 +169,7 @@ export const TipoDeApartamentoTerrazas1 = () => {
     <div className="tipo-apartamento-container">
       <div className="tipo-apartamento">
         <div className="tipo-apartamento-img">
-          <img src={obtenerImagen()} alt="" />
+          <img loading="lazy" src={obtenerImagen()} alt="" />
         </div>
         <div className="tipo-apartamento-info">{obtenerInformacion()}</div>
       </div>

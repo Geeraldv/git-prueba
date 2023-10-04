@@ -7,11 +7,11 @@ export const AcercaDe = () => {
   return (
     <div id="AcercaDe" className="Acerca-container">
       <div className="img-acerca">
-        <img src={ImgAcercaDe} />
+        <img src={ImgAcercaDe} loading="lazy" />
       </div>
 
       <div className="Acerca-content">
-        <img className="rayita-acerca" src={raya} />
+        <img className="rayita-acerca" src={raya} loading="lazy" />
         <h1>Nosotros</h1>
 
         <p className="txt-acerca">

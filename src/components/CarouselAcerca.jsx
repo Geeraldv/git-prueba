@@ -8,13 +8,28 @@ export const CarouselAcerca = () => {
   return (
     <Carousel className="acerca-de-carousel" showThumbs={false}>
       <div>
-        <img className="img__carousel" src={terrazol1img} alt="Imagen 1" />
+        <img
+          className="img__carousel"
+          loading="lazy"
+          src={terrazol1img}
+          alt="Imagen 1"
+        />
       </div>
       <div>
-        <img className="img__carousel" src={acercade} alt="Imagen 2" />
+        <img
+          className="img__carousel"
+          loading="lazy"
+          src={acercade}
+          alt="Imagen 2"
+        />
       </div>
       <div>
-        <img className="img__carousel" src={terrazol1img} alt="Imagen 3" />
+        <img
+          className="img__carousel"
+          loading="lazy"
+          src={terrazol1img}
+          alt="Imagen 3"
+        />
       </div>
     </Carousel>
   );

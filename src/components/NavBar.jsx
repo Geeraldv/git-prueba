@@ -1,7 +1,7 @@
 import React from "react";
-import gitlogoblack from "../assets/img/gitlogoblack.png";
+import gitlogoblack from "../assets/img/gitLogoBlackk.png";
 import whatsapplogoblack from "../assets/img/whatsapplogoblack.png";
-import menublack from "../assets/img/menublack.png";
+import menublack from "../assets/svg/MenuNegro.svg";
 import "../styles/NavBar.css";
 import { Link } from "react-router-dom";
 
@@ -9,8 +9,8 @@ export const NavBar = ({ toggleSidebar }) => {
   return (
     <nav className="nav-header">
       <div className="nav-container">
-        <Link to="/">
-          <img src={gitlogoblack} alt="Git Logo" />
+        <Link to="/" className="logonavbar">
+          <img src={gitlogoblack} loading="lazy" alt="Git Logo" />
         </Link>
 
         <div className="header-right-nav">
@@ -22,13 +22,19 @@ export const NavBar = ({ toggleSidebar }) => {
             href="https://api.whatsapp.com/send?phone=8293823940"
             target="_blank"
           >
-            <img src={whatsapplogoblack} alt="WhatsApp Logo" /> WhatsApp
+            <img src={whatsapplogoblack} alt="WhatsApp Logo" loading="lazy" />
+            WhatsApp
           </a>
           <Link to="/" className="contact">
             Contáctanos
           </Link>
           <a href="#menu">
-            <img src={menublack} onClick={toggleSidebar} alt="Menu Icon" />
+            <img
+              src={menublack}
+              loading="lazy"
+              onClick={toggleSidebar}
+              alt="Menu Icon"
+            />
           </a>
         </div>
       </div>

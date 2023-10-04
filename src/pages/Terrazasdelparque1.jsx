@@ -47,22 +47,52 @@ export const Terrazasdelparque1 = () => {
         <div className="colunm-detalles-1">
           <DemoCarousel>
             <div>
-              <img className="img__carousel" src={tp1} alt="Imagen 3" />
+              <img
+                className="img__carousel"
+                loading="lazy"
+                src={tp1}
+                alt="Imagen 3"
+              />
             </div>
             <div>
-              <img className="img__carousel" src={tp2} alt="Imagen 3" />
+              <img
+                className="img__carousel"
+                loading="lazy"
+                src={tp2}
+                alt="Imagen 3"
+              />
             </div>
             <div>
-              <img className="img__carousel" src={tp3} alt="Imagen 3" />
+              <img
+                className="img__carousel"
+                loading="lazy"
+                src={tp3}
+                alt="Imagen 3"
+              />
             </div>
             <div>
-              <img className="img__carousel" src={tp4} alt="Imagen 3" />
+              <img
+                className="img__carousel"
+                loading="lazy"
+                src={tp4}
+                alt="Imagen 3"
+              />
             </div>
             <div>
-              <img className="img__carousel" src={tp5} alt="Imagen 3" />
+              <img
+                className="img__carousel"
+                loading="lazy"
+                src={tp5}
+                alt="Imagen 3"
+              />
             </div>
             <div>
-              <img className="img__carousel" src={tp6} alt="Imagen 3" />
+              <img
+                className="img__carousel"
+                loading="lazy"
+                src={tp6}
+                alt="Imagen 3"
+              />
             </div>
           </DemoCarousel>
           <Descripcion
@@ -72,33 +102,33 @@ export const Terrazasdelparque1 = () => {
           <Caracteristicas>
             <ul className="lista__details1">
               <li>
-                <img src={checkblue} alt="Check" />
+                <img src={checkblue} alt="Check" loading="lazy" />
                 <span>Gimnasio</span>
               </li>
               <li>
-                <img src={checkblue} alt="Check" />
+                <img src={checkblue} alt="Check" loading="lazy" />
                 <span>Salones de eventos</span>
               </li>
               <li>
-                <img src={checkblue} alt="Check" />
+                <img src={checkblue} alt="Check" loading="lazy" />
                 <span>Área de BBQ</span>
               </li>
               <li>
-                <img src={checkblue} alt="Check" />
+                <img src={checkblue} alt="Check" loading="lazy" />
                 <span>Roof Top</span>
               </li>
             </ul>
             <ul className="lista__details1 lista__details2">
               <li>
-                <img src={checkblue} alt="Check" />
+                <img src={checkblue} alt="Check" loading="lazy" />
                 <span>Cocina modular con Isleta</span>
               </li>
               <li>
-                <img src={checkblue} alt="Check" />
+                <img src={checkblue} alt="Check" loading="lazy" />
                 <span>Áreas de juegos</span>
               </li>
               <li>
-                <img src={checkblue} alt="Check" />
+                <img src={checkblue} alt="Check" loading="lazy" />
                 <span>Áreas comunes</span>
               </li>
             </ul>

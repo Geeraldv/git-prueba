@@ -3,6 +3,7 @@ import "../styles/AcercaDeDetalles.css";
 import gitlogoacerca from "../assets/img/gitlogoacerca.png";
 import gitLogoBlackk from "../assets/img/gitLogoBlackk.png";
 import terrazasdelparquelogo from "../assets/img/TerrazasDelParqueLogo.png";
+import terrazolLogo from "../assets/img/LogoTerrazol1.png";
 import { Carousel } from "react-responsive-carousel";
 
 import img1 from "../assets/img/Terrazas del parque 1/TP1.png";
@@ -54,23 +55,35 @@ export const AcercaDeDetalles = () => {
       </div>
       <div className="nuestrasmarcas__container">
         <div className="nuestrasmarcas_item">
-          <img className="nuestrasmarcas_img" src={gitLogoBlackk} alt="" />
-        </div>
-        <div className="nuestrasmarcas_item">
           <img
             className="nuestrasmarcas_img"
-            src={terrazasdelparquelogo}
+            src={gitLogoBlackk}
             alt=""
+            loading="lazy"
           />
         </div>
         <div className="nuestrasmarcas_item">
-          <img className="nuestrasmarcas_img" src={gitlogoacerca} alt="" />
-        </div>
-        <div className="nuestrasmarcas_item">
           <img
             className="nuestrasmarcas_img"
             src={terrazasdelparquelogo}
             alt=""
+            loading="lazy"
+          />
+        </div>
+        <div className="nuestrasmarcas_item">
+          <img
+            className="nuestrasmarcas_img"
+            src={gitlogoacerca}
+            alt=""
+            loading="lazy"
+          />
+        </div>
+        <div className="nuestrasmarcas_item">
+          <img
+            className="nuestrasmarcas_img"
+            src={terrazolLogo}
+            alt=""
+            loading="lazy"
           />
         </div>
       </div>
@@ -86,19 +99,44 @@ export const AcercaDeDetalles = () => {
 
       <Carousel showThumbs={false} className="acerca-de-carousel">
         <div>
-          <img className="img__carousel" src={img1} alt="Imagen 3" />
+          <img
+            className="img__carousel"
+            src={img1}
+            alt="Imagen 3"
+            loading="lazy"
+          />
         </div>
         <div>
-          <img className="img__carousel" src={img2} alt="Imagen 3" />
+          <img
+            className="img__carousel"
+            src={img2}
+            alt="Imagen 3"
+            loading="lazy"
+          />
         </div>
         <div>
-          <img className="img__carousel" src={img3} alt="Imagen 3" />
+          <img
+            className="img__carousel"
+            src={img3}
+            alt="Imagen 3"
+            loading="lazy"
+          />
         </div>
         <div>
-          <img className="img__carousel" src={img4} alt="Imagen 3" />
+          <img
+            className="img__carousel"
+            src={img4}
+            alt="Imagen 3"
+            loading="lazy"
+          />
         </div>
         <div>
-          <img className="img__carousel" src={img5} alt="Imagen 3" />
+          <img
+            className="img__carousel"
+            src={img5}
+            alt="Imagen 3"
+            loading="lazy"
+          />
         </div>
       </Carousel>
     </div>

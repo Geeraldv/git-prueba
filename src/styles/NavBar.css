@@ -5,6 +5,9 @@
 }
 
 .nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   overflow: hidden;
   padding: 20px 10px;
   width: 90%;
@@ -26,6 +29,10 @@
 .nav-header a.logo-ws img {
   display: inline-block;
   vertical-align: middle;
+}
+
+.logonavbar img {
+  width: 160px;
 }
 
 .nav-header a.contact {

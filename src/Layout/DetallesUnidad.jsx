@@ -1,4 +1,4 @@
-import calculadoralogo from "../assets/img/calculadora.png";
+import calculadoralogo from "../assets/svg/calculadora.svg";
 import "../styles/DetallesUnidad.css";
 
 export const DetallesUnidad = ({ nombre, ubicacion, precio }) => {

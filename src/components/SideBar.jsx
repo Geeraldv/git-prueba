@@ -1,5 +1,12 @@
 import React from "react";
 import "../styles/SideBar.css";
+import {
+  FaHome,
+  FaUser,
+  FaWhatsapp,
+  FaProjectDiagram,
+  FaEnvelope,
+} from "react-icons/fa";
 
 export const SideBar = ({ isOpen, toggleSidebar, closeSidebar }) => {
   const sidebarClassName = `sidenav ${isOpen ? "open" : ""}`;
@@ -20,22 +27,28 @@ export const SideBar = ({ isOpen, toggleSidebar, closeSidebar }) => {
           &times;
         </a>
 
-        <a href="#" onClick={handleSidebarClose}>
-          Home
-        </a>
-        {/* Modificar los enlaces para cerrar el sidebar al hacer clic */}
-        <a href="#AcercaDe" onClick={handleSidebarClose}>
-          Acerca De
-        </a>
-        <a href="#" onClick={handleSidebarClose}>
-          Whatsapp
-        </a>
-        <a href="#Proyectos" onClick={handleSidebarClose}>
-          Proyectos
-        </a>
-        <a href="#Contactos" onClick={handleSidebarClose}>
-          Contactos
-        </a>
+        <div id="mySidenav" className={sidebarClassName}>
+          <a href="#" className="closebtn" onClick={closeSidebar}>
+            &times;
+          </a>
+
+          <a href="#" onClick={handleSidebarClose}>
+            <FaHome /> Home
+          </a>
+          {/* Modificar los enlaces para cerrar el sidebar al hacer clic */}
+          <a href="#AcercaDe" onClick={handleSidebarClose}>
+            <FaUser /> Acerca De
+          </a>
+          <a href="#" onClick={handleSidebarClose}>
+            <FaWhatsapp /> Whatsapp
+          </a>
+          <a href="#Proyectos" onClick={handleSidebarClose}>
+            <FaProjectDiagram /> Proyectos
+          </a>
+          <a href="#Contactos" onClick={handleSidebarClose}>
+            <FaEnvelope /> Contactos
+          </a>
+        </div>
       </div>
     </>
   );

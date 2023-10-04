@@ -55,6 +55,7 @@ export const Terrazol1 = () => {
                 className="img__carousel"
                 src={terrazolrenderimg}
                 alt="Imagen 3"
+                loading="lazy"
               />
             </div>
             <div>
@@ -62,6 +63,7 @@ export const Terrazol1 = () => {
                 className="img__carousel"
                 src={terrazolrenderimg2}
                 alt="Imagen 3"
+                loading="lazy"
               />
             </div>
             <div>
@@ -69,6 +71,7 @@ export const Terrazol1 = () => {
                 className="img__carousel"
                 src={terrazolrenderimg3}
                 alt="Imagen 3"
+                loading="lazy"
               />
             </div>
             <div>
@@ -76,6 +79,7 @@ export const Terrazol1 = () => {
                 className="img__carousel"
                 src={terrazolrenderimg4}
                 alt="Imagen 3"
+                loading="lazy"
               />
             </div>
             <div>
@@ -83,26 +87,57 @@ export const Terrazol1 = () => {
                 className="img__carousel"
                 src={terrazolrenderimg5}
                 alt="Imagen 3"
+                loading="lazy"
               />
             </div>
 
             <div>
-              <img className="img__carousel" src={tipoA} alt="Imagen 1" />
+              <img
+                className="img__carousel"
+                src={tipoA}
+                alt="Imagen 1"
+                loading="lazy"
+              />
             </div>
             <div>
-              <img className="img__carousel" src={tipoB} alt="Imagen 2" />
+              <img
+                className="img__carousel"
+                src={tipoB}
+                alt="Imagen 2"
+                loading="lazy"
+              />
             </div>
             <div>
-              <img className="img__carousel" src={tipoC} alt="Imagen 3" />
+              <img
+                className="img__carousel"
+                src={tipoC}
+                alt="Imagen 3"
+                loading="lazy"
+              />
             </div>
             <div>
-              <img className="img__carousel" src={tipoD} alt="Imagen 1" />
+              <img
+                className="img__carousel"
+                src={tipoD}
+                alt="Imagen 1"
+                loading="lazy"
+              />
             </div>
             <div>
-              <img className="img__carousel" src={tipoE} alt="Imagen 2" />
+              <img
+                className="img__carousel"
+                src={tipoE}
+                alt="Imagen 2"
+                loading="lazy"
+              />
             </div>
             <div>
-              <img className="img__carousel" src={tipoF} alt="Imagen 3" />
+              <img
+                className="img__carousel"
+                src={tipoF}
+                alt="Imagen 3"
+                loading="lazy"
+              />
             </div>
           </DemoCarousel>
           <Descripcion
@@ -112,37 +147,37 @@ export const Terrazol1 = () => {
           <Caracteristicas>
             <ul className="lista__details1">
               <li>
-                <img src={checkblue} alt="Check" />
+                <img src={checkblue} alt="Check" loading="lazy" />
                 <span>3 habitaciones</span>
               </li>
               <li>
-                <img src={checkblue} alt="Check" />
+                <img src={checkblue} alt="Check" loading="lazy" />
                 <span>2 baños</span>
               </li>
               <li>
-                <img src={checkblue} alt="Check" />
+                <img src={checkblue} alt="Check" loading="lazy" />
                 <span>1 Parqueo</span>
               </li>
               <li>
-                <img src={checkblue} alt="Check" />
+                <img src={checkblue} alt="Check" loading="lazy" />
                 <span>Balcón</span>
               </li>
               <li>
-                <img src={checkblue} alt="Check" />
+                <img src={checkblue} alt="Check" loading="lazy" />
                 <span>Walking closet</span>
               </li>
             </ul>
             <ul className="lista__details1 lista__details2">
               <li>
-                <img src={checkblue} alt="Check" />
+                <img src={checkblue} alt="Check" loading="lazy" />
                 <span>Control de acceso</span>
               </li>
               <li>
-                <img src={checkblue} alt="Check" />
+                <img src={checkblue} alt="Check" loading="lazy" />
                 <span>Áreas de juegos</span>
               </li>
               <li>
-                <img src={checkblue} alt="Check" />
+                <img src={checkblue} alt="Check" loading="lazy" />
                 <span>Áreas comunes</span>
               </li>
             </ul>

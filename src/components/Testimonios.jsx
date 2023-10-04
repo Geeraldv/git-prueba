@@ -7,7 +7,7 @@ export const Testimonios = () => {
     <div className="testimonios__container">
       <div className="testimonios__header">
         <h1 className="testimonios__title">Testimonios</h1>
-        <img src={raya} alt="" />
+        <img src={raya} loading="lazy" alt="" />
       </div>
       <div className="testimonios__body">
         <div className="testimonios__card">
@@ -20,7 +20,7 @@ export const Testimonios = () => {
           </div>
           <div className="testimonios__card__body">
             <div className="testimonios__card__body__img">
-              <img src={profile} alt="" />
+              <img src={profile} loading="lazy" alt="" />
             </div>
             <div className="testimonios__card__body__text">
               <h3>Lara Madrigal</h3>
@@ -38,7 +38,7 @@ export const Testimonios = () => {
           </div>
           <div className="testimonios__card__body">
             <div className="testimonios__card__body__img">
-              <img src={profile} alt="" />
+              <img src={profile} loading="lazy" alt="" />
             </div>
             <div className="testimonios__card__body__text">
               <h3>Lara Madrigal</h3>
@@ -56,7 +56,7 @@ export const Testimonios = () => {
           </div>
           <div className="testimonios__card__body">
             <div className="testimonios__card__body__img">
-              <img src={profile} alt="" />
+              <img src={profile} loading="lazy" alt="" />
             </div>
             <div className="testimonios__card__body__text">
               <h3>Lara Madrigal</h3>

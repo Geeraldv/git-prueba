@@ -1,7 +1,7 @@
 import { useState } from "react";
 import gitlogo from "../assets/img/gitlogo.png";
 import whatsapplogo from "../assets/img/whatsapplogo.png";
-import menu from "../assets/img/menu.png";
+import menu from "../assets/svg/MenuBlanco.svg";
 import imgcard1 from "../assets/img/IMG TERRAZOL 1/Terrazol1renderimg3.jpg";
 import imgcard2 from "../assets/img/img-card2.png";
 import imgcard3 from "../assets/img/img-card3.png";

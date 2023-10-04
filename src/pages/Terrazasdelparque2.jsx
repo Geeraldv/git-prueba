@@ -57,6 +57,7 @@ export const Terrazasdelparque2 = () => {
                 className="img__carousel"
                 src={img13terrazadelparque2}
                 alt="Imagen 3"
+                loading="lazy"
               />
             </div>
             <div>
@@ -64,6 +65,7 @@ export const Terrazasdelparque2 = () => {
                 className="img__carousel"
                 src={img3terrazadelparque2}
                 alt="Imagen 3"
+                loading="lazy"
               />
             </div>
             <div>
@@ -71,6 +73,7 @@ export const Terrazasdelparque2 = () => {
                 className="img__carousel"
                 src={img4terrazadelparque2}
                 alt="Imagen 3"
+                loading="lazy"
               />
             </div>
             <div>
@@ -78,6 +81,7 @@ export const Terrazasdelparque2 = () => {
                 className="img__carousel"
                 src={img5terrazadelparque2}
                 alt="Imagen 3"
+                loading="lazy"
               />
             </div>
             <div>
@@ -85,6 +89,7 @@ export const Terrazasdelparque2 = () => {
                 className="img__carousel"
                 src={img6terrazadelparque2}
                 alt="Imagen 3"
+                loading="lazy"
               />
             </div>
 
@@ -93,6 +98,7 @@ export const Terrazasdelparque2 = () => {
                 className="img__carousel"
                 src={img7terrazadelparque2}
                 alt="Imagen 1"
+                loading="lazy"
               />
             </div>
             <div>
@@ -100,6 +106,7 @@ export const Terrazasdelparque2 = () => {
                 className="img__carousel"
                 src={img8terrazadelparque2}
                 alt="Imagen 2"
+                loading="lazy"
               />
             </div>
             <div>
@@ -107,6 +114,7 @@ export const Terrazasdelparque2 = () => {
                 className="img__carousel"
                 src={img9terrazadelparque2}
                 alt="Imagen 3"
+                loading="lazy"
               />
             </div>
             <div>
@@ -114,6 +122,7 @@ export const Terrazasdelparque2 = () => {
                 className="img__carousel"
                 src={img10terrazadelparque2}
                 alt="Imagen 1"
+                loading="lazy"
               />
             </div>
             <div>
@@ -121,6 +130,7 @@ export const Terrazasdelparque2 = () => {
                 className="img__carousel"
                 src={img11terrazadelparque2}
                 alt="Imagen 2"
+                loading="lazy"
               />
             </div>
             <div>
@@ -128,6 +138,7 @@ export const Terrazasdelparque2 = () => {
                 className="img__carousel"
                 src={img12terrazadelparque2}
                 alt="Imagen 3"
+                loading="lazy"
               />
             </div>
             <div>
@@ -135,6 +146,7 @@ export const Terrazasdelparque2 = () => {
                 className="img__carousel"
                 src={img2terrazadelparque2}
                 alt="Imagen 3"
+                loading="lazy"
               />
             </div>
             <div>
@@ -142,6 +154,7 @@ export const Terrazasdelparque2 = () => {
                 className="img__carousel"
                 src={img14terrazadelparque2}
                 alt="Imagen 3"
+                loading="lazy"
               />
             </div>
           </DemoCarousel>
@@ -152,39 +165,39 @@ export const Terrazasdelparque2 = () => {
           <Caracteristicas>
             <ul className="lista__details1">
               <li>
-                <img src={checkblue} alt="Check" />
+                <img src={checkblue} alt="Check" loading="lazy" />
                 <span>Espacio para coworking</span>
               </li>
               <li>
-                <img src={checkblue} alt="Check" />
+                <img src={checkblue} alt="Check" loading="lazy" />
                 <span>Area de juegos para niños</span>
               </li>
               <li>
-                <img src={checkblue} alt="Check" />
+                <img src={checkblue} alt="Check" loading="lazy" />
                 <span>Gimnasio</span>
               </li>
               <li>
-                <img src={checkblue} alt="Check" />
+                <img src={checkblue} alt="Check" loading="lazy" />
                 <span>Piscina</span>
               </li>
               <li>
-                <img src={checkblue} alt="Check" />
+                <img src={checkblue} alt="Check" loading="lazy" />
                 <span>Cocinas modulares hidrófugas</span>
               </li>
             </ul>
             <ul className="lista__details1 lista__details2">
               <li>
-                <img src={checkblue} alt="Check" />
+                <img src={checkblue} alt="Check" loading="lazy" />
                 <span>
                   Equipados con estufa y horno empotrados, extractor de grasa.
                 </span>
               </li>
               <li>
-                <img src={checkblue} alt="Check" />
+                <img src={checkblue} alt="Check" loading="lazy" />
                 <span>Puertas enchapadas en roble. </span>
               </li>
               <li>
-                <img src={checkblue} alt="Check" />
+                <img src={checkblue} alt="Check" loading="lazy" />
                 <span>Pisos en porcelanato</span>
               </li>
             </ul>
