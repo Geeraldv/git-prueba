@@ -25,7 +25,19 @@ export const Home = () => {
   useScrollToTop();
   return (
     <>
-      <FloatingWhatsApp />
+      <FloatingWhatsApp
+        accountName="Geraldo Ventura"
+        phoneNumber="+8293823940"
+        avatar="https://i.ibb.co/m0d45yN/profile.jpg"
+        darkMode={false}
+        statusMessage="Normalmente responde en 1 hora"
+        chatMessage="Hola, ¿Estas interesado en algun proyecto?"
+        placeholder="Escribe un mensaje..."
+        allowClickAway={true}
+        allowEsc={true}
+        notification={true}
+        notificationDelay={1}
+      />
       <Header toggleSidebar={toggleSidebar} />
       <SideBar isOpen={isSidebarOpen} closeSidebar={closeSidebar} />
       <AcercaDe />

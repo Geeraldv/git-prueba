@@ -29,6 +29,7 @@
 .nav-header a.logo-ws img {
   display: inline-block;
   vertical-align: middle;
+  margin-right: 10px;
 }
 
 .logonavbar img {
@@ -48,6 +49,15 @@
 .header-right-nav {
   float: right;
   margin-top: 8px;
+}
+
+@media (max-width: 810px) {
+  .nav-header a.proyect {
+    display: none;
+  }
+  .nav-header a {
+    font-size: 14px; /* Cambia el tamaño de la fuente para las otras opciones */
+  }
 }
 
 @media (max-width: 760px) {
