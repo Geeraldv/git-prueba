@@ -11,6 +11,7 @@ import { NavBar } from "../components/NavBar";
 import { VideoProyectos } from "../components/VideoProyectos";
 import { TipoDeApartamentoTerrazas1 } from "../components/TipoDeApartamentoTerrazas1";
 import { SideBar } from "../components/SideBar";
+import { ButtonBrochure } from "../Layout/ButtonBrochure";
 import checkblue from "../assets/svg/Checkblue.svg";
 import tp1 from "../assets/img//Terrazas del parque 1/TP1.png";
 import tp2 from "../assets/img//Terrazas del parque 1/TP2.png";
@@ -18,6 +19,8 @@ import tp3 from "../assets/img//Terrazas del parque 1/TP3.png";
 import tp4 from "../assets/img//Terrazas del parque 1/TP4.png";
 import tp5 from "../assets/img//Terrazas del parque 1/TP5.png";
 import tp6 from "../assets/img//Terrazas del parque 1/TP6.png";
+import urlTerrazaDelParque1 from "../assets/pdf/brochureTerrazaDelParque1.pdf";
+import useScrollToTop from "../hooks/useScrollToTop";
 
 export const Terrazasdelparque1 = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -29,6 +32,7 @@ export const Terrazasdelparque1 = () => {
   const closeSidebar = () => {
     setIsSidebarOpen(false);
   };
+  useScrollToTop();
 
   return (
     <>
@@ -101,6 +105,7 @@ export const Terrazasdelparque1 = () => {
           </Caracteristicas>
 
           <TipoDeApartamentoTerrazas1 />
+          <ButtonBrochure url={urlTerrazaDelParque1} />
           <Mapa mapSrc="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8379.612859559702!2d-69.93857238042469!3d18.551530670528464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eaf894b09c8d97b%3A0xdd75475516b01d25!2sTerrazas%20del%20Parque!5e0!3m2!1ses-419!2sdo!4v1695849011245!5m2!1ses-419!2sdo" />
           <VideoProyectos videoSrc="https://www.youtube.com/embed/HawJb6mGGHQ?si=CEnofJKSu3B3e5pu" />
         </div>

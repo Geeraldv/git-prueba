@@ -7,7 +7,7 @@ import { Contacto } from "../components/Contacto";
 import { SideBar } from "../components/SideBar";
 import { Proyectos } from "../components/Proyectos";
 import { Footer } from "../components/Footer";
-
+import useScrollToTop from "../hooks/useScrollToTop";
 import "./Home.css";
 
 export const Home = () => {
@@ -20,14 +20,13 @@ export const Home = () => {
   const closeSidebar = () => {
     setIsSidebarOpen(false);
   };
-
+  useScrollToTop();
   return (
     <>
       <Header toggleSidebar={toggleSidebar} />
       <SideBar isOpen={isSidebarOpen} closeSidebar={closeSidebar} />
       <AcercaDe />
       <Proyectos />
-      <BuenasManos />
       <Testimonios />
       <Contacto />
       <Footer />

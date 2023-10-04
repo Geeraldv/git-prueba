@@ -52,7 +52,7 @@ export const Contacto = () => {
           <input
             type="text"
             id="contacto-asunto"
-            placeholder="Asunto"
+            placeholder="Email"
             value={asunto}
             onChange={(e) => setAsunto(e.target.value)}
             className={error && !asunto ? "error" : ""}

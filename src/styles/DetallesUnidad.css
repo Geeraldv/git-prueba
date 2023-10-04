@@ -37,13 +37,13 @@
 @media (max-width: 600px) {
   .detalles-unidad-title h2,
   .detalles-unidad-price h2 {
-    font-size: 17px;
+    font-size: 15px;
     font-weight: bold;
     margin: 0px;
   }
   .detalles-unidad-price {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
   }
   .detalles-unidad-price h2 {
     width: 60%;

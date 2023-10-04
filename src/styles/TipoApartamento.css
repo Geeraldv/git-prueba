@@ -17,10 +17,18 @@
   gap: 10px;
 }
 
-.tipo-apartamento-img img {
-  width: 400px;
-  height: 400px;
+.tipo-apartamento-img {
+  width: 60%;
+}
 
+.tipo-apartamento-info {
+  margin-right: 30px;
+  margin-left: 20px;
+}
+
+.tipo-apartamento-img img {
+  width: 100%;
+  height: 100%;
   border-radius: 25px;
 }
 
@@ -28,11 +36,14 @@
   font-size: 20px;
   margin-bottom: 20px;
   color: #335b74;
+  margin-top: 20px;
 }
 
 .tipo-apartamento-info h3 {
-  font-size: 20px;
+  font-size: 25px;
   color: #000000;
+  margin-bottom: 20px;
+  font-weight: bold;
 }
 
 .tipo-apartamento-info span {
@@ -48,14 +59,15 @@
   margin-top: 10px;
 }
 
-.tipo-apartamento-info ul::marker {
-  color: #335b74;
-  font-size: 20px;
-  margin-bottom: 10px;
-}
-
 .tipo-apartamento-info ul li {
+  font-size: 16px;
+  font-weight: 300;
   line-height: 25px;
+}
+.tipo-apartamento-info ul li::marker {
+  color: #335b74; /* Cambia el color de los puntos a #335b74 */
+  font-size: 20px; /* Tamaño de fuente de los puntos */
+  margin-right: 10px; /* Espacio entre el punto y el texto del ítem de la lista */
 }
 
 .tipo-apartamento-botones {

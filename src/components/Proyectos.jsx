@@ -34,7 +34,7 @@ export const Proyectos = () => {
               <div className="tarjeta tarjeta2">
                 <div className="esquina esquina-superior-izquierda">
                   <i className="material-icons">&#xe0c8;</i> Terrazas Del Parque
-                  2,
+                  II,
                   <br />
                   Ciudad Modelo
                 </div>
@@ -46,7 +46,7 @@ export const Proyectos = () => {
                 </div>
               </div>
               <div>
-                <p>Terraza Del Parque 2</p>
+                <p>Terraza Del Parque II</p>
               </div>
             </div>
           </Link>
@@ -87,7 +87,7 @@ export const Proyectos = () => {
                     Ciudad Juan Bosch
                   </div>
                   <div id="blue" className="esquina esquina-superior-derecha">
-                    Entregado
+                    En Planos
                   </div>
                   <div className="esquina esquina-inferior-derecha"></div>
                 </div>

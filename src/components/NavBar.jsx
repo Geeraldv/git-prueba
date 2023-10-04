@@ -25,7 +25,7 @@ export const NavBar = ({ toggleSidebar }) => {
             <img src={whatsapplogoblack} alt="WhatsApp Logo" /> WhatsApp
           </a>
           <Link to="/" className="contact">
-            Contactanos
+            Contáctanos
           </Link>
           <a href="#menu">
             <img src={menublack} onClick={toggleSidebar} alt="Menu Icon" />

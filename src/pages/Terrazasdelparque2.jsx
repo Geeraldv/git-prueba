@@ -10,6 +10,7 @@ import { NavBar } from "../components/NavBar";
 import { VideoProyectos } from "../components/VideoProyectos";
 import { TipoDeApartamentoTerrazas2 } from "../components/TipoDeApartamentoTerrazas2";
 import { SideBar } from "../components/SideBar";
+import { ButtonBrochure } from "../Layout/ButtonBrochure";
 import checkblue from "../assets/svg/Checkblue.svg";
 import img2terrazadelparque2 from "../assets/img/terrazasdelparque2/2.png";
 import img3terrazadelparque2 from "../assets/img/terrazasdelparque2/3.png";
@@ -24,6 +25,8 @@ import img11terrazadelparque2 from "../assets/img/terrazasdelparque2/11.png";
 import img12terrazadelparque2 from "../assets/img/terrazasdelparque2/12.png";
 import img13terrazadelparque2 from "../assets/img/terrazasdelparque2/13.png";
 import img14terrazadelparque2 from "../assets/img/terrazasdelparque2/Apto (1).png";
+import urlTerrazaDelParque2 from "../assets/pdf/brochureTerrazasDelParque2.pdf";
+import useScrollToTop from "../hooks/useScrollToTop";
 
 export const Terrazasdelparque2 = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -35,6 +38,7 @@ export const Terrazasdelparque2 = () => {
   const closeSidebar = () => {
     setIsSidebarOpen(false);
   };
+  useScrollToTop();
 
   return (
     <>
@@ -172,7 +176,7 @@ export const Terrazasdelparque2 = () => {
               <li>
                 <img src={checkblue} alt="Check" />
                 <span>
-                  Equipadas con estufa y horno empotrados, extractor de grasa.
+                  Equipados con estufa y horno empotrados, extractor de grasa.
                 </span>
               </li>
               <li>
@@ -187,6 +191,7 @@ export const Terrazasdelparque2 = () => {
           </Caracteristicas>
 
           <TipoDeApartamentoTerrazas2 />
+          <ButtonBrochure url={urlTerrazaDelParque2} />
           <Mapa mapSrc="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8379.612859559702!2d-69.93857238042469!3d18.551530670528464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eaf894b09c8d97b%3A0xdd75475516b01d25!2sTerrazas%20del%20Parque!5e0!3m2!1ses-419!2sdo!4v1695849011245!5m2!1ses-419!2sdo" />
           <VideoProyectos videoSrc="https://www.youtube.com/embed/NxoUmFqaA3o?si=odKuEMwaCjCxQP-C" />
         </div>

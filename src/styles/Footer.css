@@ -1,7 +1,7 @@
 footer {
   background: rgb(51, 91, 116);
   color: #fff;
-  padding: 60px 0;
+  padding: 20px 0;
   text-align: center;
   display: flex;
   flex-wrap: wrap;
@@ -27,6 +27,7 @@ footer {
 .info-column ul li a {
   color: #fff;
   font-size: 16px;
+  text-decoration: none;
 }
 .redes-sociales {
   margin-top: 20px;
@@ -58,7 +59,7 @@ footer {
   margin-left: 10px;
   font-size: 30px;
 }
-.logo .inline-item + .inline-item {
+.logo .inline-item + .inline-item A {
   margin-left: 30px;
 }
 .copyright {
@@ -76,5 +77,6 @@ footer {
     display: flex;
     align-items: center;
     flex-direction: column;
+    text-align: center;
   }
 }

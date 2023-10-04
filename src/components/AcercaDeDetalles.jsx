@@ -15,10 +15,10 @@ export const AcercaDeDetalles = () => {
   return (
     <div className="conocenos_general_container">
       <div className="conocenos__container">
-        <h1>Conocenos</h1>
+        <h1>CONOCENOS</h1>
       </div>
       <div className="sobrenosotros">
-        <h1 className="sobrenosotros__title">Sobre Nosotros</h1>
+        <h1 className="sobrenosotros__title">SOBRE NOSOTROS</h1>
         <p className="sobrenosotros__text">
           Somos un grupo de promoción y desarrollo de proyectos inmobiliarios y
           comerciales, con una trayectoria de mas de 30 años en el sector de la
@@ -44,7 +44,7 @@ export const AcercaDeDetalles = () => {
           y útil para las comunidades, aportando espacios de recreación, verdes
           y de usos múltiples.
         </p>
-        <h1 className="sobrenosotros__title">Nuestras Marcas.</h1>
+        <h1 className="sobrenosotros__title">NUESTRAS MARCAS</h1>
         <p className="sobrenosotros__text">
           Grupo Inmobiliario Terrazas cuenta con diferentes marcas operando bajo
           una estrategia de promoción integral, creando, promoviendo y
@@ -75,7 +75,7 @@ export const AcercaDeDetalles = () => {
         </div>
       </div>
       <div className="proyectosentregados__container">
-        <h1 className="proyectosentregados__title">Proyectos Entregados</h1>
+        <h1 className="proyectosentregados__title">PROYECTOS ENTREGADOS</h1>
         <p className="proyectosentregados__text">
           Hasta la fecha hemos desarrollado un exclusivo portafolio de
           proyectos, con diseños innovadores y excelentes ubicaciones

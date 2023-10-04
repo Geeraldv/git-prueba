@@ -12,14 +12,13 @@ export const AcercaDe = () => {
 
       <div className="Acerca-content">
         <img className="rayita-acerca" src={raya} />
-        <h1>Acerca de</h1>
+        <h1>Nosotros</h1>
 
         <p className="txt-acerca">
-          Los símbolos de fuerza y durabilidad. Así son nuestros terrazos, tan
-          resistentes al embate del tiempo que conservan su belleza natural.
-          Porque lo bueno debe perdurar, nosotros nos comprometemos a crear
-          productos que mantengan su belleza y firmeza aún con el paso del
-          tiempo.
+          Somos un grupo de promoción y desarrollo de proyectos inmobiliarios y
+          comerciales, con una trayectoria de mas de 30 años en el sector de la
+          construcción y financiero, garantizando a nuestros clientes seguridad
+          en sus inversiones y calidad en nuestros productos.
         </p>
         <Link to="/AcercaDeDetalles" className="btn-acerca">
           Ver más

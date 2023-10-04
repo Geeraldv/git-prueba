@@ -48,7 +48,7 @@ export const TipoDeApartamentoTerrazas2 = () => {
           <li>Cocina abierta con desayunador</li>
           <li>Habitación de servicio con baño</li>
           <li>Área de lavado (espacio para secadora y lavadora separados)</li>
-          <li>2 parqueos</li>
+          <li>2 Parqueos</li>
         </ul>
       </div>
     );

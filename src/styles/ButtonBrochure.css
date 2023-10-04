@@ -1,0 +1,15 @@
+.btn-brochure-container {
+  display: flex;
+  justify-content: center;
+  margin: 25px;
+}
+
+.btn-brochure {
+  background-color: #335b74;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+}

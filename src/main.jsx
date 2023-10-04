@@ -1,11 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import { Home } from "./pages/Home";
 import { Terrazol1 } from "./pages/Terrazol1";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import {
+  createBrowserRouter,
+  RouterProvider,
+  useLocation,
+} from "react-router-dom";
 import { AcercaDeDetallesPage } from "./pages/AcercaDeDetallesPage";
-
 import { Terrazasdelparque1 } from "./pages/Terrazasdelparque1";
 import { Terrazasdelparque2 } from "./pages/Terrazasdelparque2";
 
@@ -18,7 +21,6 @@ const BrowserRouter = createBrowserRouter([
     path: "/Terrazol1",
     element: <Terrazol1 />,
   },
-  ,
   {
     path: "/AcercaDeDetalles",
     element: <AcercaDeDetallesPage />,
@@ -35,6 +37,6 @@ const BrowserRouter = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <RouterProvider router={BrowserRouter} />
+    <RouterProvider router={BrowserRouter}></RouterProvider>
   </React.StrictMode>
 );

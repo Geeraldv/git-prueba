@@ -52,7 +52,7 @@ export const TipoDeApartamentoTerrazas1 = () => {
               <li>Balcón (tipo terraza)</li>
               <li>Cuarto útil con baño</li>
               <li>Área para Lavadora – Secadora</li>
-              <li>2 parqueos</li>
+              <li>2 Parqueos</li>
             </ul>
           </div>
         );
@@ -76,7 +76,7 @@ export const TipoDeApartamentoTerrazas1 = () => {
               <li>Balcón (tipo terraza)</li>
               <li>Cuarto útil con baño</li>
               <li>Área para Lavadora – Secadora</li>
-              <li>2 parqueos</li>
+              <li>2 Parqueos</li>
             </ul>
           </div>
         );
@@ -100,7 +100,7 @@ export const TipoDeApartamentoTerrazas1 = () => {
               <li>Balcón (tipo terraza)</li>
               <li>Cuarto útil con baño</li>
               <li>Área para Lavadora – Secadora</li>
-              <li>2 parqueos</li>
+              <li>2 Parqueos</li>
             </ul>
           </div>
         );
@@ -126,7 +126,7 @@ export const TipoDeApartamentoTerrazas1 = () => {
               <li>Balcón (tipo terraza)</li>
               <li>Cuarto útil con baño</li>
               <li>Área para Lavadora – Secadora</li>
-              <li>2 parqueos</li>
+              <li>2 Parqueos</li>
             </ul>
           </div>
         );
@@ -150,7 +150,7 @@ export const TipoDeApartamentoTerrazas1 = () => {
               <li>Área para Lavadora – Secadora</li>
               <li>Balcón</li>
               <li>Doble altura en tipo C</li>
-              <li>3 parqueos</li>
+              <li>3 Parqueos</li>
             </ul>
             <strong>SEGUNDO NIVEL:</strong>
             <ul>

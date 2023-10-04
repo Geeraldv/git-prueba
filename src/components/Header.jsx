@@ -31,7 +31,7 @@ export const Header = ({ toggleSidebar }) => {
                 <img src={whatsapplogo} /> WhatsApp
               </a>
               <a className="contact" href="#Contactos">
-                Contactanos
+                Contáctanos
               </a>
 
               <a href="#menu">

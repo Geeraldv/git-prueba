@@ -4,23 +4,38 @@ import "../styles/Footer.css";
 import { Link } from "react-router-dom";
 
 export const Footer = () => {
-  const iconStyle = { color: "white" }; // Objeto JavaScript para el estilo
-
   return (
     <footer>
       <div className="info-column">
         <ul className="logo">
-          <Link to="/">
-            <img src={gitlogo} alt="Git Logo" />
-          </Link>
-          <li className="inline-item">
-            <i className="fab fa-instagram" style={{ color: "white" }}></i>
+          <li>
+            <a href="tu_enlace.html">
+              <img src={gitlogo} alt="Logo" />
+            </a>
           </li>
           <li className="inline-item">
-            <i className="fab fa-facebook" style={{ color: "white" }}></i>
+            <a href="url_instagram">
+              <i
+                className="fab fa-instagram"
+                style={{ color: "white", fontSize: "24px" }}
+              ></i>
+            </a>
           </li>
           <li className="inline-item">
-            <i className="fab fa-whatsapp" style={{ color: "white" }}></i>
+            <a href="url_facebook">
+              <i
+                className="fab fa-facebook"
+                style={{ color: "white", fontSize: "24px" }}
+              ></i>
+            </a>
+          </li>
+          <li className="inline-item">
+            <a href="url_whatsapp">
+              <i
+                className="fab fa-whatsapp"
+                style={{ color: "white", fontSize: "24px" }}
+              ></i>
+            </a>
           </li>
         </ul>
       </div>
@@ -28,7 +43,7 @@ export const Footer = () => {
         <ul>
           <li className="Title-foot">Nuestra web</li>
           <li>
-            <a href="#punto1">Acerca de</a>
+            <a href="#punto1">Nosotros</a>
           </li>
           <li>
             <a href="#punto2">Proyectos</a>
@@ -51,7 +66,7 @@ export const Footer = () => {
             <a href="#punto1">Terrazol I</a>
           </li>
           <li>
-            <a href="#punto2">Terrazol II</a>
+            <a href="#punto2">Terrazas Park</a>
           </li>
           <li>
             <a href="#punto3">Terrazas del parque 1</a>
@@ -64,11 +79,16 @@ export const Footer = () => {
       <div className="info-column">
         <ul>
           <li className="Title-foot">Dirección</li>
-          <li>Autopista Duarte Km. 16 Los Alcarrizos, Santo Domingo</li>
+          <li>
+            <a href="#punto1">
+              Autopista Duarte Km. 16
+              <br />
+              Los Alcarrizos, Santo Domingo
+            </a>
+          </li>
         </ul>
       </div>
-
-      <div className="copyright">&copy; 2023 Grupo inmobiliario terrazas</div>
+      <div className="copyright">&copy; 2023 Grupo Inmobiliario Terrazas</div>
     </footer>
   );
 };
