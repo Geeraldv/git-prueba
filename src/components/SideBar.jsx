@@ -8,7 +8,13 @@ import {
   FaEnvelope,
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import { useEffect } from "react";
+import {
+  UilEstate,
+  UilUser,
+  UilWhatsapp,
+  UilConstructor,
+  UilEnvelopeMinus,
+} from "@iconscout/react-unicons";
 
 export const SideBar = ({ isOpen, toggleSidebar, closeSidebar }) => {
   const sidebarClassName = `sidenav ${isOpen ? "open" : ""}`;
@@ -31,20 +37,20 @@ export const SideBar = ({ isOpen, toggleSidebar, closeSidebar }) => {
         </a>
 
         <a href="#" onClick={handleSidebarClose}>
-          <FaHome /> Home
+          <UilEstate /> Home
         </a>
         {/* Modificar los enlaces para cerrar el sidebar al hacer clic */}
         <Link to="/Home/#Proyectos" onClick={handleSidebarClose}>
-          <FaUser /> Acerca De
+          <UilUser /> Nosotros
         </Link>
         <a href="#" onClick={handleSidebarClose}>
-          <FaWhatsapp /> Whatsapp
+          <UilWhatsapp /> Whatsapp
         </a>
         <a href="#Proyectos" onClick={handleSidebarClose}>
-          <FaProjectDiagram /> Proyectos
+          <UilConstructor /> Proyectos
         </a>
         <a href="#Contactos" onClick={handleSidebarClose}>
-          <FaEnvelope /> Contactos
+          <UilEnvelopeMinus /> Contactos
         </a>
       </div>
     </>

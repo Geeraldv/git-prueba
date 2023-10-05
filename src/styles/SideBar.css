@@ -25,6 +25,11 @@
   color: black; /* Cambia el color del texto a negro */
   display: block;
   transition: 0.3s;
+  margin-bottom: 10px;
+}
+
+.sidenav svg {
+  margin-top: 20px;
 }
 
 /* Cuando pasas el mouse sobre los enlaces de navegación, cambia su color */
