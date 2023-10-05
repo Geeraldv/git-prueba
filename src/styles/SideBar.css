@@ -35,7 +35,7 @@
 /* Cuando pasas el mouse sobre los enlaces de navegación, cambia su color */
 .sidenav a:hover,
 .offcanvas a:focus {
-  color: #818181; /* Cambia el color al color original al pasar el mouse */
+  color: #2d6a90; /* Cambia el color al color original al pasar el mouse */
 }
 
 /* Position and style the close button (top right corner) */
