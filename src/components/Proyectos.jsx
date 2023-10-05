@@ -1,5 +1,6 @@
 import "../styles/Proyectos.css";
 import raya from "../assets/img/raya.png";
+import { useEffect } from "react";
 import { Link } from "react-router-dom";
 
 export const Proyectos = () => {

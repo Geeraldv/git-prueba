@@ -4,6 +4,7 @@ import whatsapplogoblack from "../assets/img/whatsapplogoblack.png";
 import menublack from "../assets/svg/MenuNegro.svg";
 import "../styles/NavBar.css";
 import { Link } from "react-router-dom";
+import { UilAlignJustify } from "@iconscout/react-unicons";
 
 export const NavBar = ({ toggleSidebar }) => {
   return (
@@ -29,11 +30,10 @@ export const NavBar = ({ toggleSidebar }) => {
             Contáctanos
           </Link>
           <a href="#menu">
-            <img
-              src={menublack}
-              loading="lazy"
+            <UilAlignJustify
+              height="33px"
+              width="33px"
               onClick={toggleSidebar}
-              alt="Menu Icon"
             />
           </a>
         </div>

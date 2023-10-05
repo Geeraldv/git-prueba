@@ -3,11 +3,7 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import { Home } from "./pages/Home";
 import { Terrazol1 } from "./pages/Terrazol1";
-import {
-  createBrowserRouter,
-  RouterProvider,
-  useLocation,
-} from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { AcercaDeDetallesPage } from "./pages/AcercaDeDetallesPage";
 import { Terrazasdelparque1 } from "./pages/Terrazasdelparque1";
 import { Terrazasdelparque2 } from "./pages/Terrazasdelparque2";

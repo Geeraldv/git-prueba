@@ -1,4 +1,5 @@
 import calculadoralogo from "../assets/svg/calculadora.svg";
+import { UilCalculatorAlt } from "@iconscout/react-unicons";
 import "../styles/DetallesUnidad.css";
 
 export const DetallesUnidad = ({ nombre, ubicacion, precio }) => {
@@ -17,7 +18,7 @@ export const DetallesUnidad = ({ nombre, ubicacion, precio }) => {
               href="https://credito.com.do/calculadora-hipoteca/"
               target="_blank"
             >
-              <img src={calculadoralogo} alt="" />
+              <UilCalculatorAlt color="#335b74" height="35px" width="35px" />
             </a>
           </div>
         </div>

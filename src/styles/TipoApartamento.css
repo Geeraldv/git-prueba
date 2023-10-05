@@ -88,6 +88,7 @@
   border-radius: 5px;
   background-color: #335b74;
   transition: all 0.3s ease-in-out;
+  border: 0px;
 }
 
 .tipo-apartamento-botones button:hover {

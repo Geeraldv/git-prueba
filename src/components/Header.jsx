@@ -7,6 +7,7 @@ import imgcard2 from "../assets/img/img-card2.png";
 import imgcard3 from "../assets/img/img-card3.png";
 import imgterrazasdelparque2 from "../assets/img/terrazasdelparque2/7.png";
 import imgTerrazasPark from "../assets/img/imgTerrazasPark.jpeg";
+import { UilAlignJustify } from "@iconscout/react-unicons";
 import { Link } from "react-router-dom";
 
 import "../styles/Header.css";
@@ -35,7 +36,11 @@ export const Header = ({ toggleSidebar }) => {
               </a>
 
               <a href="#menu">
-                <img src={menu} onClick={toggleSidebar} />
+                <UilAlignJustify
+                  height="33px"
+                  width="33px"
+                  onClick={toggleSidebar}
+                />
               </a>
             </div>
           </div>

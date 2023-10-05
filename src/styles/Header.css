@@ -59,7 +59,6 @@
   letter-spacing: 1.01px;
 }
 .container__cartas {
-  height: 300px;
   display: flex;
   justify-content: center;
   justify-content: space-evenly;
@@ -69,6 +68,7 @@
   text-align: center;
   color: #fff;
   font-size: 15px;
+  margin-bottom: 60px;
 }
 .carta1 img {
   width: 350px;
@@ -77,7 +77,8 @@
 
 .carta1 {
   overflow: hidden; /* Oculta el contenido que se desborda */
-  position: relative; /* Establece una posición relativa */
+  position: relative;
+  margin-bottom: 20px; /* Establece una posición relativa */
 }
 
 .carta1 img {
