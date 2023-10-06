@@ -96,7 +96,7 @@ export const Terrazasdelparque1 = () => {
           </DemoCarousel>
           <Descripcion
             parrafo1="Terrazas del Parque es un proyecto residencial innovador ubicado en la Av. Jacobo Majluta, Santo Domingo, República Dominicana. Este desarrollo redefine el estilo de vida de sus residentes al ofrecer lujo y comodidad a precios competitivos. "
-            parrafo2="Cuenta con una amplia gama de amenidades, como gimnasio, piscina, salones de eventos, áreas de BBQ, juegos para niños y un Roof Top. Además, refleja la excelencia en diseño y construcción característica del grupo de empresas Constructora RIZEK."
+            parrafo2="Cuenta con una amplia gama de amenidades, como gimnasio, piscina, salones de eventos, áreas de BBQ, juegos para niños y un Roof Top. Además, refleja la excelencia en diseño y construcción característica del grupo de empresas Grupo Inmobiliario Terrazas"
           />
           <Caracteristicas>
             <ul className="lista__details1">

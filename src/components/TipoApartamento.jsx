@@ -39,7 +39,6 @@ export const TipoApartamento = () => {
               <li>3 Habitaciones</li>
               <li>2 Baños</li>
               <li>Balcon</li>
-              <li>Walking closet y baño en habitación principal</li>
               <li>1 Parqueo</li>
               <li>Baño común</li>
             </ul>
@@ -59,7 +58,6 @@ export const TipoApartamento = () => {
               <li>Balcon</li>
               <li>Walking closet y baño en habitación principal</li>
               <li>1 Parqueo</li>
-              <li>Baño común</li>
             </ul>
           </div>
         );

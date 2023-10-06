@@ -13,9 +13,8 @@ export const Testimonios = () => {
         <div className="testimonios__card">
           <div className="testimonios__card__title">
             <h2>
-              “Impulsa la credibilidad de tus productos y servicios con
-              testimonios de clientes. Las recomendaciones de quienes ya los han
-              probado son invaluables y generan confianza.”
+              “Tu inversión en Terrazas del Parque es segura y rentable. En poco
+              tiempo podrás duplicar tu dinero, es un sueño hecho realidad.”
             </h2>
           </div>
           <div className="testimonios__card__body">
@@ -23,17 +22,16 @@ export const Testimonios = () => {
               <img src={profile} loading="lazy" alt="" />
             </div>
             <div className="testimonios__card__body__text">
-              <h3>Lara Madrigal</h3>
-              <p>Client</p>
+              <h3>Familia Vizcaino Coste</h3>
+              <p>Clientes</p>
             </div>
           </div>
         </div>
         <div className="testimonios__card">
           <div className="testimonios__card__title">
             <h2>
-              “Impulsa la credibilidad de tus productos y servicios con
-              testimonios de clientes. Las recomendaciones de quienes ya los han
-              probado son invaluables y generan confianza.”
+              “Terrazas del Parque es un lugar cómodo, tranquilo y exclusivo. Es
+              el lugar perfecto para vivir, trabajar o invertir.”
             </h2>
           </div>
           <div className="testimonios__card__body">
@@ -41,17 +39,16 @@ export const Testimonios = () => {
               <img src={profile} loading="lazy" alt="" />
             </div>
             <div className="testimonios__card__body__text">
-              <h3>Lara Madrigal</h3>
-              <p>Client</p>
+              <h3>Pedro López</h3>
+              <p>Cliente</p>
             </div>
           </div>
         </div>
         <div className="testimonios__card">
           <div className="testimonios__card__title">
             <h2>
-              “Impulsa la credibilidad de tus productos y servicios con
-              testimonios de clientes. Las recomendaciones de quienes ya los han
-              probado son invaluables y generan confianza.”
+              “Terrazas del Parque es una excelente inversión porque te ofrece
+              la comodidad que necesitas en tu hogar.”
             </h2>
           </div>
           <div className="testimonios__card__body">
@@ -59,8 +56,8 @@ export const Testimonios = () => {
               <img src={profile} loading="lazy" alt="" />
             </div>
             <div className="testimonios__card__body__text">
-              <h3>Lara Madrigal</h3>
-              <p>Client</p>
+              <h3>Familia García Capellán</h3>
+              <p>Cliente</p>
             </div>
           </div>
         </div>
