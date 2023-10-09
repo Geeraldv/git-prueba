@@ -1,6 +1,9 @@
 import "../styles/Testimonios.css";
 import raya from "../assets/img/raya.png";
 import profile from "../assets/img/profile.png";
+import vizcaino from "../assets/img/vizcaino.png";
+import pedroLopez from "../assets/img/pedroLopez.png";
+import garciaCapellan from "../assets/img/garciaCapellan.png";
 
 export const Testimonios = () => {
   return (
@@ -19,7 +22,7 @@ export const Testimonios = () => {
           </div>
           <div className="testimonios__card__body">
             <div className="testimonios__card__body__img">
-              <img src={profile} loading="lazy" alt="" />
+              <img src={vizcaino} loading="lazy" alt="" />
             </div>
             <div className="testimonios__card__body__text">
               <h3>Familia Vizcaino Coste</h3>
@@ -36,7 +39,7 @@ export const Testimonios = () => {
           </div>
           <div className="testimonios__card__body">
             <div className="testimonios__card__body__img">
-              <img src={profile} loading="lazy" alt="" />
+              <img src={pedroLopez} loading="lazy" alt="" />
             </div>
             <div className="testimonios__card__body__text">
               <h3>Pedro López</h3>
@@ -53,7 +56,7 @@ export const Testimonios = () => {
           </div>
           <div className="testimonios__card__body">
             <div className="testimonios__card__body__img">
-              <img src={profile} loading="lazy" alt="" />
+              <img src={garciaCapellan} loading="lazy" alt="" />
             </div>
             <div className="testimonios__card__body__text">
               <h3>Familia García Capellán</h3>

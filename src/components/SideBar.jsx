@@ -40,7 +40,7 @@ export const SideBar = ({ isOpen, toggleSidebar, closeSidebar }) => {
           <UilEstate /> Home
         </a>
         {/* Modificar los enlaces para cerrar el sidebar al hacer clic */}
-        <Link to="/Home/#Proyectos" onClick={handleSidebarClose}>
+        <Link to="./#Proyectos" onClick={handleSidebarClose}>
           <UilUser /> Nosotros
         </Link>
         <a href="#" onClick={handleSidebarClose}>

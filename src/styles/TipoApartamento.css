@@ -129,9 +129,8 @@
 }
 
 @media (max-width: 480px) {
-  .tipo-apartamento-img img {
-    width: 250px;
-    height: 250px;
+  .tipo-apartamento-img {
+    width: 80%;
   }
 
   .tipo-apartamento-info {

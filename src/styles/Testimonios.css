@@ -75,7 +75,8 @@
 @media (max-width: 460px) {
   .testimonios__card {
     align-items: center;
-    width: 320px; /* Cambia el ancho a 100% para adaptarse a la pantalla estrecha */
+    width: 320px;
+    height: 300px;
   }
 
   .testimonios__card__title h2 {
