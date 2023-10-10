@@ -1,20 +1,14 @@
 import React from "react";
 import "../styles/SideBar.css";
 import {
-  FaHome,
-  FaUser,
-  FaWhatsapp,
-  FaProjectDiagram,
-  FaEnvelope,
-} from "react-icons/fa";
-import { Link } from "react-router-dom";
-import {
   UilEstate,
   UilUser,
   UilWhatsapp,
   UilConstructor,
   UilEnvelopeMinus,
 } from "@iconscout/react-unicons";
+
+import { HashLink as Link } from "react-router-hash-link";
 
 export const SideBar = ({ isOpen, toggleSidebar, closeSidebar }) => {
   const sidebarClassName = `sidenav ${isOpen ? "open" : ""}`;
@@ -32,26 +26,32 @@ export const SideBar = ({ isOpen, toggleSidebar, closeSidebar }) => {
       )}
 
       <div id="mySidenav" className={sidebarClassName}>
-        <a href="#" className="closebtn" onClick={closeSidebar}>
+        <a href="/#" className="closebtn" onClick={closeSidebar}>
           &times;
         </a>
 
-        <a href="#" onClick={handleSidebarClose}>
+        <Link to="/#" onClick={handleSidebarClose}>
           <UilEstate /> Home
-        </a>
-        {/* Modificar los enlaces para cerrar el sidebar al hacer clic */}
-        <Link to="./#Proyectos" onClick={handleSidebarClose}>
+        </Link>
+
+        <Link smooth to="/#Nosotros" onClick={handleSidebarClose}>
           <UilUser /> Nosotros
         </Link>
-        <a href="#" onClick={handleSidebarClose}>
-          <UilWhatsapp /> Whatsapp
-        </a>
-        <a href="#Proyectos" onClick={handleSidebarClose}>
+
+        <Link
+          to="https://api.whatsapp.com/send?phone=8293823940"
+          onClick={handleSidebarClose}
+        >
+          <UilWhatsapp /> WhatsApp
+        </Link>
+
+        <Link smooth to="/#Proyectos" onClick={handleSidebarClose}>
           <UilConstructor /> Proyectos
-        </a>
-        <a href="#Contactos" onClick={handleSidebarClose}>
+        </Link>
+
+        <Link smooth to="/#Contactos" onClick={handleSidebarClose}>
           <UilEnvelopeMinus /> Contactos
-        </a>
+        </Link>
       </div>
     </>
   );

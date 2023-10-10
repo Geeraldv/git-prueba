@@ -63,10 +63,10 @@ export const Footer = () => {
             <a href="#punto2">Terrazas Park</a>
           </li>
           <li>
-            <a href="#punto3">Terrazas del parque I</a>
+            <a href="#punto3">Terrazas Del Parque I</a>
           </li>
           <li>
-            <a href="#punto4">Terrazas del parque II</a>
+            <a href="#punto4">Terrazas Del Parque II</a>
           </li>
         </ul>
       </div>

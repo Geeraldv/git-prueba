@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 export const AcercaDe = () => {
   return (
-    <div id="AcercaDe" className="Acerca-container">
+    <div id="Nosotros" className="Acerca-container">
       <div className="img-acerca">
         <img src={ImgAcercaDe} loading="lazy" />
       </div>
