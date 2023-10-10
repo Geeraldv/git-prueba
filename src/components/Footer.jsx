@@ -1,6 +1,9 @@
 import React from "react";
 import gitlogo from "../assets/img/gitlogo.png";
+import gitlogocalidad from "../assets/img/gitlogocalidad.png";
 import "../styles/Footer.css";
+
+import { HashLink } from "react-router-hash-link";
 import { Link } from "react-router-dom";
 
 export const Footer = () => {
@@ -9,9 +12,9 @@ export const Footer = () => {
       <div className="info-column">
         <ul className="logo">
           <li>
-            <a href="tu_enlace.html">
-              <img src={gitlogo} loading="lazy" alt="Logo" />
-            </a>
+            <Link to="/">
+              <img src={gitlogocalidad} loading="lazy" alt="Logo" />
+            </Link>
           </li>
           <li className="inline-item">
             <a href="url_instagram">
@@ -43,13 +46,19 @@ export const Footer = () => {
         <ul>
           <li className="Title-foot">Nuestra web</li>
           <li>
-            <a href="#punto1">Nosotros</a>
+            <HashLink smooth to="/#Nosotros">
+              Nosotros
+            </HashLink>
           </li>
           <li>
-            <a href="#punto2">Proyectos</a>
+            <HashLink smooth to="/#Proyectos">
+              Proyectos
+            </HashLink>
           </li>
           <li>
-            <a href="#punto5">Contactanos</a>
+            <HashLink smooth to="/#Contactos">
+              Contáctanos
+            </HashLink>
           </li>
         </ul>
       </div>
@@ -57,16 +66,16 @@ export const Footer = () => {
         <ul>
           <li className="Title-foot">Proyectos</li>
           <li>
-            <a href="#punto1">Terrazol I</a>
+            <Link to="/Terrazol1">Terrazol I</Link>
           </li>
           <li>
             <a href="#punto2">Terrazas Park</a>
           </li>
           <li>
-            <a href="#punto3">Terrazas Del Parque I</a>
+            <Link to="/Terrazasdelparque1">Terrazas Del Parque I</Link>
           </li>
           <li>
-            <a href="#punto4">Terrazas Del Parque II</a>
+            <Link to="/Terrazasdelparque2">Terrazas Del Parque II</Link>
           </li>
         </ul>
       </div>

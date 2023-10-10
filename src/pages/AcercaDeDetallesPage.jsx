@@ -23,8 +23,8 @@ export const AcercaDeDetallesPage = () => {
       <NavBar toggleSidebar={toggleSidebar} />
       <SideBar isOpen={isSidebarOpen} closeSidebar={closeSidebar} />
       <FloatingWhatsApp
-        accountName="Geraldo Ventura"
-        phoneNumber="+8293823940"
+        accountName="Grupo Inmobiliario Terrazas"
+        phoneNumber="+8292927138"
         avatar="https://i.ibb.co/m0d45yN/profile.jpg"
         darkMode={false}
         statusMessage="Normalmente responde en 1 hora"

@@ -8,7 +8,7 @@ export const ContactMini = () => {
         <div className="custom-emo">
           <div className="custom-emo2">
             <img src={profileimg} />
-            <p>Paola Olivero</p>
+            <p>Contáctanos</p>
           </div>
         </div>
 

@@ -5,6 +5,7 @@ import menublack from "../assets/svg/MenuNegro.svg";
 import "../styles/NavBar.css";
 import { Link } from "react-router-dom";
 import { UilAlignJustify } from "@iconscout/react-unicons";
+import { HashLink } from "react-router-hash-link";
 
 export const NavBar = ({ toggleSidebar }) => {
   return (
@@ -15,20 +16,20 @@ export const NavBar = ({ toggleSidebar }) => {
         </Link>
 
         <div className="header-right-nav">
-          <Link to="/" className="proyect">
+          <HashLink smooth to="/#Proyectos" className="proyect">
             Proyectos
-          </Link>
+          </HashLink>
           <a
             className="logo-ws"
-            href="https://api.whatsapp.com/send?phone=8293823940"
+            href="https://api.whatsapp.com/send?phone=8292927138"
             target="_blank"
           >
             <img src={whatsapplogoblack} alt="WhatsApp Logo" loading="lazy" />
             WhatsApp
           </a>
-          <Link to="/" className="contact">
+          <HashLink smooth to="/#Contactos" className="contact">
             Contáctanos
-          </Link>
+          </HashLink>
           <a href="#menu">
             <UilAlignJustify
               height="33px"

@@ -31,26 +31,28 @@ export const SideBar = ({ isOpen, toggleSidebar, closeSidebar }) => {
         </a>
 
         <Link to="/#" onClick={handleSidebarClose}>
-          <UilEstate /> Home
+          <UilEstate width="24" height="20" viewBox="0 0 20 20" /> Home
         </Link>
 
         <Link smooth to="/#Nosotros" onClick={handleSidebarClose}>
-          <UilUser /> Nosotros
+          <UilUser width="24" height="20" viewBox="0 0 20 20" /> Nosotros
         </Link>
 
         <Link
-          to="https://api.whatsapp.com/send?phone=8293823940"
+          to="https://api.whatsapp.com/send?phone=8292927138"
           onClick={handleSidebarClose}
         >
-          <UilWhatsapp /> WhatsApp
+          <UilWhatsapp width="24" height="20" viewBox="0 0 23 23" /> WhatsApp
         </Link>
 
         <Link smooth to="/#Proyectos" onClick={handleSidebarClose}>
-          <UilConstructor /> Proyectos
+          <UilConstructor width="24" height="20" viewBox="0 0 23 23" />{" "}
+          Proyectos
         </Link>
 
         <Link smooth to="/#Contactos" onClick={handleSidebarClose}>
-          <UilEnvelopeMinus /> Contactos
+          <UilEnvelopeMinus width="24" height="20" viewBox="0 0 20 20" />{" "}
+          Contactos
         </Link>
       </div>
     </>

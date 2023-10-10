@@ -1,14 +1,12 @@
-import { useState } from "react";
 import gitlogo from "../assets/img/gitlogo.png";
+import gitlogocalidad from "../assets/img/gitlogocalidad.png";
 import whatsapplogo from "../assets/img/whatsapplogo.png";
-import menu from "../assets/svg/MenuBlanco.svg";
 import imgcard1 from "../assets/img/IMG TERRAZOL 1/Terrazol1renderimg3.jpg";
-import imgcard2 from "../assets/img/img-card2.png";
-import imgcard3 from "../assets/img/img-card3.png";
 import imgterrazasdelparque2 from "../assets/img/terrazasdelparque2/7.png";
 import imgTerrazasPark from "../assets/img/imgTerrazasPark.jpeg";
 import { UilAlignJustify } from "@iconscout/react-unicons";
 import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 import "../styles/Header.css";
 
@@ -19,21 +17,23 @@ export const Header = ({ toggleSidebar }) => {
         <nav className="nav__header">
           <div className="header">
             <Link to="/">
-              <img src={gitlogo} />
+              <img src={gitlogocalidad} className="git-logo-header" />
             </Link>
 
             <div className="header-right">
-              <a href="#Proyectos">Proyectos</a>
+              <HashLink smooth to="/#Proyectos">
+                Proyectos
+              </HashLink>
               <a
                 className="logo-ws"
-                href="https://api.whatsapp.com/send?phone=8293823940"
+                href="https://api.whatsapp.com/send?phone=8292927138"
                 target="_blank"
               >
                 <img src={whatsapplogo} /> WhatsApp
               </a>
-              <a className="contact" href="#Contactos">
+              <HashLink smooth to="/#Contactos" className="contact">
                 Contáctanos
-              </a>
+              </HashLink>
 
               <a href="#menu">
                 <UilAlignJustify
