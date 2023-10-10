@@ -17,6 +17,9 @@
 
 /*barra*/
 .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   overflow: hidden;
   padding: 20px 10px;
   width: 90%;
@@ -48,7 +51,6 @@
 }
 .header-right {
   float: right;
-  margin-top: 8px;
 }
 .title__header {
   display: flex;

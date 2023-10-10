@@ -16,7 +16,7 @@ export const Header = ({ toggleSidebar }) => {
       <div className="container-header2">
         <nav className="nav__header">
           <div className="header">
-            <Link to="/">
+            <Link to="/" className="git-logo">
               <img src={gitlogocalidad} className="git-logo-header" />
             </Link>
 
@@ -35,10 +35,10 @@ export const Header = ({ toggleSidebar }) => {
                 Contáctanos
               </HashLink>
 
-              <a href="#menu">
+              <a>
                 <UilAlignJustify
                   height="33px"
-                  width="33px"
+                  width="33"
                   onClick={toggleSidebar}
                 />
               </a>
