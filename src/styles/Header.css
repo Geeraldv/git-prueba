@@ -75,6 +75,10 @@
   margin-bottom: 15px;
 }
 
+.git-logo-header {
+  width: 140px;
+  height: 60px;
+}
 .carta1 {
   overflow: hidden; /* Oculta el contenido que se desborda */
   position: relative;

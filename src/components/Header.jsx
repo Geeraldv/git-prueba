@@ -12,12 +12,12 @@ import "../styles/Header.css";
 
 export const Header = ({ toggleSidebar }) => {
   return (
-    <div className="container__header1">
+    <div id="Header" className="container__header1">
       <div className="container-header2">
         <nav className="nav__header">
           <div className="header">
             <Link to="/">
-              <img src={gitlogo} />
+              <img src={gitlogocalidad} className="git-logo-header" />
             </Link>
 
             <div className="header-right">

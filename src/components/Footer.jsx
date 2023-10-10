@@ -12,9 +12,9 @@ export const Footer = () => {
       <div className="info-column">
         <ul className="logo">
           <li>
-            <Link to="/">
+            <HashLink smooth to="/#Header">
               <img src={gitlogocalidad} loading="lazy" alt="Logo" />
-            </Link>
+            </HashLink>
           </li>
           <li className="inline-item">
             <a href="url_instagram">
