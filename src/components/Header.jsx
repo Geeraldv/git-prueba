@@ -17,7 +17,7 @@ export const Header = ({ toggleSidebar }) => {
         <nav className="nav__header">
           <div className="header">
             <Link to="/">
-              <img src={gitlogocalidad} className="git-logo-header" />
+              <img src={gitlogo} />
             </Link>
 
             <div className="header-right">
