@@ -1,16 +1,16 @@
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import "../styles/AcercaDeDetalles.css";
-import gitlogoacerca from "../assets/img/gitlogoacerca.png";
-import gitLogoBlackk from "../assets/img/gitLogoBlackk.png";
-import terrazasdelparquelogo from "../assets/img/TerrazasDelParqueLogo.png";
-import terrazolLogo from "../assets/img/LogoTerrazol1.png";
+import gitlogoacerca from "../assets/img/gitlogoacerca.webp";
+import gitLogoBlackk from "../assets/img/gitLogoBlackk.webp";
+import terrazasdelparquelogo from "../assets/img/TerrazasDelParqueLogo.webp";
+import terrazolLogo from "../assets/img/LogoTerrazol1.webp";
 import { Carousel } from "react-responsive-carousel";
 
-import img1 from "../assets/img/Terrazas del parque 1/TP1.png";
-import img2 from "../assets/img/Terrazas del parque 1/TP2.png";
-import img3 from "../assets/img/Terrazas del parque 1/TP3.png";
-import img4 from "../assets/img/Terrazas del parque 1/TP4.png";
-import img5 from "../assets/img/Terrazas del parque 1/TP5.png";
+import img1 from "../assets/img/Terrazas del parque 1/TP1.webp";
+import img2 from "../assets/img/Terrazas del parque 1/TP2.webp";
+import img3 from "../assets/img/Terrazas del parque 1/TP3.webp";
+import img4 from "../assets/img/Terrazas del parque 1/TP4.webp";
+import img5 from "../assets/img/Terrazas del parque 1/TP5.webp";
 
 export const AcercaDeDetalles = () => {
   return (

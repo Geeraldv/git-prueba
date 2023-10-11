@@ -37,14 +37,14 @@
 .tarjeta {
   width: 669px;
   height: 422px;
-  background-image: url("../assets/img/terrazol1img.png");
+  background-image: url("../assets/img/terrazol1img.webp");
   background-size: cover;
   position: relative;
   margin: 10px;
 }
 
 .tarjeta2 {
-  background-image: url("../assets/img/terrazasdelparque2/13.png");
+  background-image: url("../assets/img/terrazasdelparque2/13.webp");
   position: relative; /* Para que los elementos secundarios se posicionen con respecto a este elemento */
 }
 
@@ -59,7 +59,7 @@
 }
 
 .tarjeta3 {
-  background-image: url("../assets/img/Terrazas del parque 1/TP7.jpeg");
+  background-image: url("../assets/img/Terrazas del parque 1/TP7.webp");
   position: relative; /* Para que los elementos secundarios se posicionen con respecto a este elemento */
 }
 
@@ -74,7 +74,7 @@
 }
 
 .tarjeta4 {
-  background-image: url("../assets/img/TerrazasPark.png");
+  background-image: url("../assets/img/TerrazasPark.webp");
   position: relative; /* Para que los elementos secundarios se posicionen con respecto a este elemento */
 }
 

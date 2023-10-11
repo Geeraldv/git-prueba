@@ -12,12 +12,12 @@ import { TipoDeApartamentoTerrazas1 } from "../components/TipoDeApartamentoTerra
 import { SideBar } from "../components/SideBar";
 import { ButtonBrochure } from "../Layout/ButtonBrochure";
 import checkblue from "../assets/svg/Checkblue.svg";
-import tp1 from "../assets/img//Terrazas del parque 1/TP1.png";
-import tp2 from "../assets/img//Terrazas del parque 1/TP2.png";
-import tp3 from "../assets/img//Terrazas del parque 1/TP3.png";
-import tp4 from "../assets/img//Terrazas del parque 1/TP4.png";
-import tp5 from "../assets/img//Terrazas del parque 1/TP5.png";
-import tp6 from "../assets/img//Terrazas del parque 1/TP6.png";
+import tp1 from "../assets/img/Terrazas del parque 1/TP1.webp";
+import tp2 from "../assets/img/Terrazas del parque 1/TP2.webp";
+import tp3 from "../assets/img/Terrazas del parque 1/TP3.webp";
+import tp4 from "../assets/img/Terrazas del parque 1/TP4.webp";
+import tp5 from "../assets/img/Terrazas del parque 1/TP5.webp";
+import tp6 from "../assets/img/Terrazas del parque 1/TP6.webp";
 import urlTerrazaDelParque1 from "../assets/pdf/brochureTerrazaDelParque1.pdf";
 import useScrollToTop from "../hooks/useScrollToTop";
 
@@ -50,7 +50,7 @@ export const Terrazasdelparque1 = () => {
                 className="img__carousel"
                 loading="lazy"
                 src={tp1}
-                alt="Imagen 3"
+                alt="Carousel Terrazas del parque 1"
               />
             </div>
             <div>
@@ -58,7 +58,7 @@ export const Terrazasdelparque1 = () => {
                 className="img__carousel"
                 loading="lazy"
                 src={tp2}
-                alt="Imagen 3"
+                alt="Carousel Terrazas del parque 1"
               />
             </div>
             <div>
@@ -66,7 +66,7 @@ export const Terrazasdelparque1 = () => {
                 className="img__carousel"
                 loading="lazy"
                 src={tp3}
-                alt="Imagen 3"
+                alt="Carousel Terrazas del parque 1"
               />
             </div>
             <div>
@@ -74,7 +74,7 @@ export const Terrazasdelparque1 = () => {
                 className="img__carousel"
                 loading="lazy"
                 src={tp4}
-                alt="Imagen 3"
+                alt="Carousel Terrazas del parque 1"
               />
             </div>
             <div>
@@ -82,7 +82,7 @@ export const Terrazasdelparque1 = () => {
                 className="img__carousel"
                 loading="lazy"
                 src={tp5}
-                alt="Imagen 3"
+                alt="Carousel Terrazas del parque 1"
               />
             </div>
             <div>
@@ -90,7 +90,7 @@ export const Terrazasdelparque1 = () => {
                 className="img__carousel"
                 loading="lazy"
                 src={tp6}
-                alt="Imagen 3"
+                alt="Carousel Terrazas del parque 1"
               />
             </div>
           </DemoCarousel>

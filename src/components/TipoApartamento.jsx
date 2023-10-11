@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import TipoApartamentoImgA from "../assets/img/TipoATerrazol.png";
-import TipoApartamentoImgB from "../assets/img/TipoBTerrazol.png";
-import TipoApartamentoImgC from "../assets/img/TipoCTerrazol.png";
+import TipoApartamentoImgA from "../assets/img/TipoATerrazol.webp";
+import TipoApartamentoImgB from "../assets/img/TipoBTerrazol.webp";
+import TipoApartamentoImgC from "../assets/img/TipoCTerrazol.webp";
 
 import "../styles/TipoApartamento.css"; // Asegúrate de que la ruta del archivo CSS sea correcta
 

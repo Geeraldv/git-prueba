@@ -1,6 +1,6 @@
 import "../styles/BuenasManos.css";
-import ImgBuenasManos from "../assets/img/buenasmanos2.jpg";
-import raya from "../assets/img/raya.png";
+import ImgBuenasManos from "../assets/img/buenasmanos2.webp";
+import raya from "../assets/img/raya.webp";
 
 export const BuenasManos = () => {
   return (

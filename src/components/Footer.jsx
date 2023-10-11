@@ -1,6 +1,5 @@
 import React from "react";
-import gitlogo from "../assets/img/gitlogo.png";
-import gitlogocalidad from "../assets/img/gitlogocalidad.png";
+import gitlogocalidad from "../assets/img/gitlogocalidad.webp";
 import "../styles/Footer.css";
 
 import { HashLink } from "react-router-hash-link";

@@ -1,8 +1,8 @@
 import "../styles/Testimonios.css";
-import raya from "../assets/img/raya.png";
-import vizcaino from "../assets/img/vizcaino.png";
-import pedroLopez from "../assets/img/pedroLopez.png";
-import garciaCapellan from "../assets/img/garciaCapellan.png";
+import raya from "../assets/img/raya.webp";
+import vizcaino from "../assets/img/vizcaino.webp";
+import pedroLopez from "../assets/img/pedroLopez.webp";
+import garciaCapellan from "../assets/img/garciaCapellan.webp";
 
 export const Testimonios = () => {
   return (

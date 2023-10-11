@@ -1,6 +1,6 @@
 import "../styles/AcercaDe.css";
-import ImgAcercaDe from "../assets/img/AcercaDe.png";
-import raya from "../assets/img/raya.png";
+import ImgAcercaDe from "../assets/img/AcercaDe.webp";
+import raya from "../assets/img/raya.webp";
 import { Link } from "react-router-dom";
 
 export const AcercaDe = () => {

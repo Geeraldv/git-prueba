@@ -1,6 +1,6 @@
 import React from "react";
-import gitlogoblack from "../assets/img/gitLogoBlackk.png";
-import whatsapplogoblack from "../assets/img/whatsapplogoblack.png";
+import gitlogoblack from "../assets/img/gitLogoBlackk.webp";
+import whatsapplogoblack from "../assets/img/whatsapplogoblack.webp";
 import menublack from "../assets/svg/MenuNegro.svg";
 import "../styles/NavBar.css";
 import { Link } from "react-router-dom";

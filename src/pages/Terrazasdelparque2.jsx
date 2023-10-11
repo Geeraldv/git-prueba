@@ -12,19 +12,19 @@ import { TipoDeApartamentoTerrazas2 } from "../components/TipoDeApartamentoTerra
 import { SideBar } from "../components/SideBar";
 import { ButtonBrochure } from "../Layout/ButtonBrochure";
 import checkblue from "../assets/svg/Checkblue.svg";
-import img2terrazadelparque2 from "../assets/img/terrazasdelparque2/2.png";
-import img3terrazadelparque2 from "../assets/img/terrazasdelparque2/3.png";
-import img4terrazadelparque2 from "../assets/img/terrazasdelparque2/4.png";
-import img5terrazadelparque2 from "../assets/img/terrazasdelparque2/5.png";
-import img6terrazadelparque2 from "../assets/img/terrazasdelparque2/6.png";
-import img7terrazadelparque2 from "../assets/img/terrazasdelparque2/7.png";
-import img8terrazadelparque2 from "../assets/img/terrazasdelparque2/8.png";
-import img9terrazadelparque2 from "../assets/img/terrazasdelparque2/9.png";
-import img10terrazadelparque2 from "../assets/img/terrazasdelparque2/10.png";
-import img11terrazadelparque2 from "../assets/img/terrazasdelparque2/11.png";
-import img12terrazadelparque2 from "../assets/img/terrazasdelparque2/12.png";
-import img13terrazadelparque2 from "../assets/img/terrazasdelparque2/13.png";
-import img14terrazadelparque2 from "../assets/img/terrazasdelparque2/Apto (1).png";
+import img2terrazadelparque2 from "../assets/img/terrazasdelparque2/2.webp";
+import img3terrazadelparque2 from "../assets/img/terrazasdelparque2/3.webp";
+import img4terrazadelparque2 from "../assets/img/terrazasdelparque2/4.webp";
+import img5terrazadelparque2 from "../assets/img/terrazasdelparque2/5.webp";
+import img6terrazadelparque2 from "../assets/img/terrazasdelparque2/6.webp";
+import img7terrazadelparque2 from "../assets/img/terrazasdelparque2/7.webp";
+import img8terrazadelparque2 from "../assets/img/terrazasdelparque2/8.webp";
+import img9terrazadelparque2 from "../assets/img/terrazasdelparque2/9.webp";
+import img10terrazadelparque2 from "../assets/img/terrazasdelparque2/10.webp";
+import img11terrazadelparque2 from "../assets/img/terrazasdelparque2/11.webp";
+import img12terrazadelparque2 from "../assets/img/terrazasdelparque2/12.webp";
+import img13terrazadelparque2 from "../assets/img/terrazasdelparque2/13.webp";
+import img14terrazadelparque2 from "../assets/img/terrazasdelparque2/Apto (1).webp";
 import urlTerrazaDelParque2 from "../assets/pdf/brochureTerrazasDelParque2.pdf";
 import useScrollToTop from "../hooks/useScrollToTop";
 
@@ -56,7 +56,7 @@ export const Terrazasdelparque2 = () => {
               <img
                 className="img__carousel"
                 src={img13terrazadelparque2}
-                alt="Imagen 3"
+                alt="Carousel Terrazas del parque 2"
                 loading="lazy"
               />
             </div>
@@ -64,7 +64,7 @@ export const Terrazasdelparque2 = () => {
               <img
                 className="img__carousel"
                 src={img3terrazadelparque2}
-                alt="Imagen 3"
+                alt="Carousel Terrazas del parque 2"
                 loading="lazy"
               />
             </div>
@@ -72,7 +72,7 @@ export const Terrazasdelparque2 = () => {
               <img
                 className="img__carousel"
                 src={img4terrazadelparque2}
-                alt="Imagen 3"
+                alt="Carousel Terrazas del parque 2"
                 loading="lazy"
               />
             </div>
@@ -80,7 +80,7 @@ export const Terrazasdelparque2 = () => {
               <img
                 className="img__carousel"
                 src={img5terrazadelparque2}
-                alt="Imagen 3"
+                alt="Carousel Terrazas del parque 2"
                 loading="lazy"
               />
             </div>
@@ -88,7 +88,7 @@ export const Terrazasdelparque2 = () => {
               <img
                 className="img__carousel"
                 src={img6terrazadelparque2}
-                alt="Imagen 3"
+                alt="Carousel Terrazas del parque 2"
                 loading="lazy"
               />
             </div>
@@ -97,7 +97,7 @@ export const Terrazasdelparque2 = () => {
               <img
                 className="img__carousel"
                 src={img7terrazadelparque2}
-                alt="Imagen 1"
+                alt="Carousel Terrazas del parque 2"
                 loading="lazy"
               />
             </div>
@@ -105,7 +105,7 @@ export const Terrazasdelparque2 = () => {
               <img
                 className="img__carousel"
                 src={img8terrazadelparque2}
-                alt="Imagen 2"
+                alt="Carousel Terrazas del parque 2"
                 loading="lazy"
               />
             </div>
@@ -113,7 +113,7 @@ export const Terrazasdelparque2 = () => {
               <img
                 className="img__carousel"
                 src={img9terrazadelparque2}
-                alt="Imagen 3"
+                alt="Carousel Terrazas del parque 2"
                 loading="lazy"
               />
             </div>
@@ -121,7 +121,7 @@ export const Terrazasdelparque2 = () => {
               <img
                 className="img__carousel"
                 src={img10terrazadelparque2}
-                alt="Imagen 1"
+                alt="Carousel Terrazas del parque 2"
                 loading="lazy"
               />
             </div>
@@ -129,7 +129,7 @@ export const Terrazasdelparque2 = () => {
               <img
                 className="img__carousel"
                 src={img11terrazadelparque2}
-                alt="Imagen 2"
+                alt="Carousel Terrazas del parque 2"
                 loading="lazy"
               />
             </div>
@@ -137,7 +137,7 @@ export const Terrazasdelparque2 = () => {
               <img
                 className="img__carousel"
                 src={img12terrazadelparque2}
-                alt="Imagen 3"
+                alt="Carousel Terrazas del parque 2"
                 loading="lazy"
               />
             </div>
@@ -145,7 +145,7 @@ export const Terrazasdelparque2 = () => {
               <img
                 className="img__carousel"
                 src={img2terrazadelparque2}
-                alt="Imagen 3"
+                alt="Carousel Terrazas del parque 2"
                 loading="lazy"
               />
             </div>
@@ -153,7 +153,7 @@ export const Terrazasdelparque2 = () => {
               <img
                 className="img__carousel"
                 src={img14terrazadelparque2}
-                alt="Imagen 3"
+                alt="Carousel Terrazas del parque 2"
                 loading="lazy"
               />
             </div>

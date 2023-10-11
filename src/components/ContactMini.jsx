@@ -1,5 +1,5 @@
 import "../styles/ContactMini.css";
-import profileimg from "../assets/img/Profileimg.png";
+import profileimg from "../assets/img/Profileimg.webp";
 
 export const ContactMini = () => {
   return (

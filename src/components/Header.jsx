@@ -1,9 +1,8 @@
-import gitlogo from "../assets/img/gitlogo.png";
-import gitlogocalidad from "../assets/img/gitlogocalidad.png";
-import whatsapplogo from "../assets/img/whatsapplogo.png";
-import imgcard1 from "../assets/img/IMG TERRAZOL 1/Terrazol1renderimg3.jpg";
-import imgterrazasdelparque2 from "../assets/img/terrazasdelparque2/7.png";
-import imgTerrazasPark from "../assets/img/imgTerrazasPark.jpeg";
+import gitlogocalidad from "../assets/img/gitlogocalidad.webp";
+import whatsapplogo from "../assets/img/whatsapplogo.webp";
+import imgcard1 from "../assets/img/IMG TERRAZOL 1/Terrazol1renderimg3.webp";
+import imgterrazasdelparque2 from "../assets/img/terrazasdelparque2/7.webp";
+import imgTerrazasPark from "../assets/img/imgTerrazasPark.webp";
 import { UilAlignJustify } from "@iconscout/react-unicons";
 import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
