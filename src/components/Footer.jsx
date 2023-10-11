@@ -13,7 +13,7 @@ export const Footer = () => {
         <ul className="logo">
           <li>
             <HashLink smooth to="/#Header">
-              <img src={gitlogocalidad} loading="lazy" alt="Logo" />
+              <img src={gitlogocalidad} loading="lazy" alt="Logo GIT" />
             </HashLink>
           </li>
           <li className="inline-item">

@@ -7,11 +7,16 @@ export const AcercaDe = () => {
   return (
     <div id="Nosotros" className="Acerca-container">
       <div className="img-acerca">
-        <img src={ImgAcercaDe} loading="lazy" />
+        <img src={ImgAcercaDe} alt="Imagen Acerca de Nosotros" loading="lazy" />
       </div>
 
       <div className="Acerca-content">
-        <img className="rayita-acerca" src={raya} loading="lazy" />
+        <img
+          className="rayita-acerca"
+          alt="Línea decorativa"
+          src={raya}
+          loading="lazy"
+        />
         <h1>Nosotros</h1>
 
         <p className="txt-acerca">

@@ -7,7 +7,7 @@ export const ContactMini = () => {
       <div className="custom-contact-container">
         <div className="custom-emo">
           <div className="custom-emo2">
-            <img src={profileimg} />
+            <img src={profileimg} alt="Imagen del profile GIT" />
             <p>Contáctanos</p>
           </div>
         </div>

@@ -17,7 +17,11 @@ export const Header = ({ toggleSidebar }) => {
         <nav className="nav__header">
           <div className="header">
             <Link to="/" className="git-logo">
-              <img src={gitlogocalidad} className="git-logo-header" />
+              <img
+                src={gitlogocalidad}
+                alt="GIT logo empresa inmobiliaria"
+                className="git-logo-header"
+              />
             </Link>
 
             <div className="header-right">
@@ -29,7 +33,7 @@ export const Header = ({ toggleSidebar }) => {
                 href="https://api.whatsapp.com/send?phone=8292927138"
                 target="_blank"
               >
-                <img src={whatsapplogo} /> WhatsApp
+                <img src={whatsapplogo} alt="Logo de WhatsApp" /> WhatsApp
               </a>
               <HashLink smooth to="/#Contactos" className="contact">
                 Contáctanos
@@ -53,7 +57,10 @@ export const Header = ({ toggleSidebar }) => {
         <div className="container__cartas">
           <div className="carta1">
             <Link to="./Terrazol1">
-              <img src={imgcard1} />
+              <img
+                src={imgcard1}
+                alt="Imagen del proyecto Residencial Terrazol 1"
+              />
             </Link>
             <h3 className="animate-text">Residencial Terrazol 1</h3>
             <p>Proyecto RESIDENCIAL</p>
@@ -61,7 +68,10 @@ export const Header = ({ toggleSidebar }) => {
 
           <div className="carta1">
             <Link to="/">
-              <img src={imgTerrazasPark} />
+              <img
+                src={imgTerrazasPark}
+                alt="Imagen del proyecto Terrazas Park"
+              />
             </Link>
 
             <h3 className="animate-text">Terrazas Park</h3>
@@ -70,7 +80,10 @@ export const Header = ({ toggleSidebar }) => {
 
           <div className="carta1">
             <Link to="./Terrazasdelparque2">
-              <img src={imgterrazasdelparque2} />
+              <img
+                src={imgterrazasdelparque2}
+                alt="Imagen del proyecto Terrazas del Parque 2"
+              />
             </Link>
             <h3 className="animate-text">Terrazas del Parque 2</h3>
             <p>Proyecto RESIDENCIAL</p>

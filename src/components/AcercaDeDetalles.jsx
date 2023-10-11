@@ -58,7 +58,7 @@ export const AcercaDeDetalles = () => {
           <img
             className="nuestrasmarcas_img"
             src={gitLogoBlackk}
-            alt=""
+            alt="Logo de Git Logo"
             loading="lazy"
           />
         </div>
@@ -66,7 +66,7 @@ export const AcercaDeDetalles = () => {
           <img
             className="nuestrasmarcas_img"
             src={terrazasdelparquelogo}
-            alt=""
+            alt="Logo de Terrazas del Parque"
             loading="lazy"
           />
         </div>
@@ -74,7 +74,7 @@ export const AcercaDeDetalles = () => {
           <img
             className="nuestrasmarcas_img"
             src={gitlogoacerca}
-            alt=""
+            alt="Logo de Git Logo Acerca"
             loading="lazy"
           />
         </div>
@@ -82,7 +82,7 @@ export const AcercaDeDetalles = () => {
           <img
             className="nuestrasmarcas_img"
             src={terrazolLogo}
-            alt=""
+            alt="Logo de Terrazol"
             loading="lazy"
           />
         </div>
@@ -102,7 +102,7 @@ export const AcercaDeDetalles = () => {
           <img
             className="img__carousel"
             src={img1}
-            alt="Imagen 3"
+            alt="Imagen del proyecto Terrazas del Parque 1 - Imagen 1"
             loading="lazy"
           />
         </div>
@@ -110,7 +110,7 @@ export const AcercaDeDetalles = () => {
           <img
             className="img__carousel"
             src={img2}
-            alt="Imagen 3"
+            alt="Imagen del proyecto Terrazas del Parque 1 - Imagen 2"
             loading="lazy"
           />
         </div>
@@ -118,7 +118,7 @@ export const AcercaDeDetalles = () => {
           <img
             className="img__carousel"
             src={img3}
-            alt="Imagen 3"
+            alt="Imagen del proyecto Terrazas del Parque 1 - Imagen 3"
             loading="lazy"
           />
         </div>
@@ -126,7 +126,7 @@ export const AcercaDeDetalles = () => {
           <img
             className="img__carousel"
             src={img4}
-            alt="Imagen 3"
+            alt="Imagen del proyecto Terrazas del Parque 1 - Imagen 4"
             loading="lazy"
           />
         </div>
@@ -134,7 +134,7 @@ export const AcercaDeDetalles = () => {
           <img
             className="img__carousel"
             src={img5}
-            alt="Imagen 3"
+            alt="Imagen del proyecto Terrazas del Parque 1 - Imagen 5"
             loading="lazy"
           />
         </div>
