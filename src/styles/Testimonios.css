@@ -57,6 +57,14 @@
   margin-left: 40px;
 }
 
+.testimonios__card__body {
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+
+  height: 90px;
+}
+
 .testimonios__card:nth-child(2) .testimonios__card__body {
   display: flex;
   align-items: center;
