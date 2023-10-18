@@ -22,6 +22,7 @@ export const Home = () => {
   const closeSidebar = () => {
     setIsSidebarOpen(false);
   };
+
   useScrollToTop();
   return (
     <>

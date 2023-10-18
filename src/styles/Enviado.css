@@ -1,0 +1,43 @@
+.container-chek {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container1-c {
+  width: 600px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 30px;
+}
+.container1-c img {
+  width: 100px;
+  position: relative;
+  animation: infinite-loop 2s linear;
+}
+@keyframes infinite-loop {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0%);
+  }
+}
+p {
+  position: relative;
+  animation: infinite-loop 2s linear;
+  text-align: center;
+}
+
+@keyframes infinite-loop {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0%);
+  }
+}

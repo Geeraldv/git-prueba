@@ -37,6 +37,7 @@
   height: 40px;
   border-radius: 16px;
   padding: 9px;
+  font-weight: 600;
 }
 
 #contacto-asunto {
@@ -46,6 +47,7 @@
   border-radius: 16px;
   padding: 9px;
   margin-top: 30px;
+  font-weight: 600;
 }
 
 #contacto-info {
@@ -55,9 +57,12 @@
   border-radius: 16px;
   padding: 9px;
   margin-top: 30px;
+  font-weight: 600;
 }
 
 .contacto-btn {
+  display: flex;
+  justify-content: center;
   margin-top: 30px;
 }
 
@@ -71,17 +76,9 @@
   border: 0px;
 }
 
-/* Estilo para los campos con error */
-.error {
-  border: 3px solid red !important ; /* Cambia el borde a rojo */
-  color: red !important ; /* Cambia el color del texto a rojo */
-}
-
 /* Estilo para el mensaje de error */
-.contacto-error {
-  color: red !important ; /* Cambia el color del texto a rojo */
-  font-size: 14px !important ; /* Tamaño de fuente para el mensaje de error */
-  margin-top: 5px !important ; /* Margen superior para separar del campo de entrada */
+.contacto-error::placeholder {
+  color: #e51d1d; /* Color de texto en rojo */
 }
 
 /* Estilos para pantallas medianas y pequeñas */
