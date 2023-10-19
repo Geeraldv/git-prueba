@@ -27,7 +27,7 @@
     transform: translateY(0%);
   }
 }
-p {
+.p-enviado {
   position: relative;
   animation: infinite-loop 2s linear;
   text-align: center;
