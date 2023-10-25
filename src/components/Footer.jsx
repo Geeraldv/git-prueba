@@ -16,7 +16,10 @@ export const Footer = () => {
             </HashLink>
           </li>
           <li className="inline-item">
-            <a href="url_instagram">
+            <a
+              href="https://www.instagram.com/terrazasdelparquerd"
+              target="_blank"
+            >
               <i
                 className="fab fa-instagram"
                 style={{ color: "white", fontSize: "24px" }}
@@ -24,7 +27,10 @@ export const Footer = () => {
             </a>
           </li>
           <li className="inline-item">
-            <a href="url_facebook">
+            <a
+              href="https://www.facebook.com/terrazasdelparquerd?mibextid=LQQJ4d"
+              target="_blank"
+            >
               <i
                 className="fab fa-facebook"
                 style={{ color: "white", fontSize: "24px" }}
@@ -32,7 +38,10 @@ export const Footer = () => {
             </a>
           </li>
           <li className="inline-item">
-            <a href="url_whatsapp">
+            <a
+              href="https://api.whatsapp.com/send?phone=8292927138"
+              target="_blank"
+            >
               <i
                 className="fab fa-whatsapp"
                 style={{ color: "white", fontSize: "24px" }}
