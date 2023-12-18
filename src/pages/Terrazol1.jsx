@@ -43,7 +43,7 @@ export const Terrazol1 = () => {
       <NavBar toggleSidebar={toggleSidebar} />
       <SideBar isOpen={isSidebarOpen} closeSidebar={closeSidebar} />
       <DetallesUnidad
-        nombre="TERRAZOL I"
+        nombre="TERRAZOL I y II"
         ubicacion="Ciudad Juan Bosch"
         precio="Desde RD 3,260,000.00"
       />
