@@ -22,7 +22,7 @@ export const Proyectos = () => {
                 </div>
               </div>
               <div>
-                <p>Terrazol 1</p>
+                <p>Terrazol 1 y 2</p>
               </div>
             </div>
           </Link>
