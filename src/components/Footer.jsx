@@ -99,7 +99,7 @@ export const Footer = () => {
           </li>
         </ul>
       </div>
-      <div className="copyright">&copy; 2023 Grupo Inmobiliario Terrazas</div>
+      <div className="copyright">&copy; 2024 Grupo Inmobiliario Terrazas</div>
     </footer>
   );
 };
