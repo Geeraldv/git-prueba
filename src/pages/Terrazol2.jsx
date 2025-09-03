@@ -7,7 +7,6 @@ import { DetallesUnidad } from "../Layout/DetallesUnidad";
 import { Footer } from "../components/Footer";
 import { Mapa } from "../Layout/Mapa";
 import { NavBar } from "../components/NavBar";
-import { TipoApartamento } from "../components/TipoApartamento";
 import { VideoProyectos } from "../components/VideoProyectos";
 import { SideBar } from "../components/SideBar";
 import { ButtonBrochure } from "../Layout/ButtonBrochure";
@@ -27,7 +26,8 @@ import urlTerrazol1 from "../assets/pdf/BrochureTerrazol1.pdf";
 import useScrollToTop from "../hooks/useScrollToTop";
 
 import "./Terrazol1.css";
-export const Terrazol1 = () => {
+import { TipoApartamentoTerrazol2 } from "../components/TipoApartamentoTerrazol2";
+export const Terrazol2 = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
   const toggleSidebar = () => {
@@ -43,7 +43,7 @@ export const Terrazol1 = () => {
       <NavBar toggleSidebar={toggleSidebar} />
       <SideBar isOpen={isSidebarOpen} closeSidebar={closeSidebar} />
       <DetallesUnidad
-        nombre="TERRAZOL I"
+        nombre="TERRAZOL II"
         ubicacion="Ciudad Juan Bosch"
         precio="Desde RD 3,260,000.00"
       />
@@ -141,8 +141,8 @@ export const Terrazol1 = () => {
             </div>
           </DemoCarousel>
           <Descripcion
-            parrafo1="El Residencial Terrazol 1 es un proyecto habitacional de bajo costo con control de acceso dentro de Ciudad Juan Bosch, santo Domingo Este, de trece (13) bloques de edificios de apartamentos, de cuatro (4) apartamentos por planta, con un total de 208 apartamentos. Contando con todas las facilidades y amenidades de Ciudad Juan Bosch, centros educativos, centro de atención primaria, iglesias, supermercados, parques, entre otras cosas. "
-            parrafo2="El proyecto cuenta con tres (3) tipologías de edificios, designados como Edificios Tipo A, B y C.  Apartamentos de tres habitaciones, sala, comedor, cocina, área de lavado, balcón y un parqueo, uno y dos baños dependiendo de la tipologia."
+            parrafo1="El Residencial Terrazol  II es un proyecto habitacional de bajo costo, con control de acceso dentro de Ciudad Juan Bosch, santo Domingo Este, de treinta nueve (39) bloques de edificios de apartamentos, de cuatro (4) apartamentos por planta, con un total de 624 apartamentos. Contando con todas las facilidades y amenidades de Ciudad Juan Bosch, centros educativos, centro de atención primaria, iglesias, supermercados, parques, entre otras cosas."
+            parrafo2="El proyecto cuenta con dos (2) tipologías de edificios, designados como Edificios Tipo A y B. Apartamentos de tres (3) habitaciones, sala, comedor, cocina, área de lavado, balcón y un parqueo, uno y dos baños dependiendo de la tipología."
           />
           <Caracteristicas>
             <ul className="lista__details1">
@@ -174,19 +174,19 @@ export const Terrazol1 = () => {
               </li>
               <li>
                 <img src={checkblue} alt="Check" loading="lazy" />
-                <span>Áreas de juegos</span>
+                <span>Áreas comunes</span>
               </li>
               <li>
                 <img src={checkblue} alt="Check" loading="lazy" />
-                <span>Áreas comunes</span>
+                <span>Cancha Basquetbol</span>
               </li>
             </ul>
           </Caracteristicas>
 
-          <TipoApartamento />
+          <TipoApartamentoTerrazol2 />
           <ButtonBrochure url={urlTerrazol1} />
-          <Mapa mapSrc="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3783.6027679977974!2d-69.7448709156059!3d18.501643924874106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTjCsDMwJzA1LjkiTiA2OcKwNDQnMjQuMCJX!5e0!3m2!1ses-419!2sdo!4v1695761014656!5m2!1ses-419!2sdo" />
-          <VideoProyectos videoSrc="https://www.youtube.com/embed/Cr4WoG3J-sg?si=hXGxZZRFfSvhdddE" />
+          <Mapa mapSrc="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3428.9682376206442!2d-69.73982769999999!3d18.4977321!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eaf810e8c055537%3A0x314f7479e44eeb4e!2sResidencial%20Terrazol%202!5e1!3m2!1ses-419!2sdo!4v1756871915767!5m2!1ses-419!2sdo" />
+          <VideoProyectos videoSrc="https://www.youtube.com/embed/3HTual5sq7Q?si=_nyAS4vVPw5l0KCU" />
         </div>
         <div className="colunm-detalles-2">
           <ContactMini />

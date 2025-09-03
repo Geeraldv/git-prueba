@@ -1,11 +1,10 @@
 import { useState } from "react";
 import TipoApartamentoImgA from "../assets/img/TipoATerrazol.webp";
 import TipoApartamentoImgB from "../assets/img/TipoBTerrazol.webp";
-import TipoApartamentoImgC from "../assets/img/TipoCTerrazol.webp";
 
 import "../styles/TipoApartamento.css";
 
-export const TipoApartamento = () => {
+export const TipoApartamentoTerrazol2 = () => {
   const [tipo, setTipo] = useState("A");
 
   const handleTipoChange = (nuevoTipo) => {
@@ -18,8 +17,6 @@ export const TipoApartamento = () => {
         return TipoApartamentoImgA;
       case "B":
         return TipoApartamentoImgB;
-      case "C":
-        return TipoApartamentoImgC;
       default:
         return "";
     }
@@ -65,24 +62,6 @@ export const TipoApartamento = () => {
             </ul>
           </div>
         );
-      case "C":
-        return (
-          <div>
-            <h4>Tipos de Apartamento</h4>
-            <h3>
-              Tipo C <span>- 3 Habitaciones</span>
-            </h3>
-            <p>De 65 a 72 mts</p>
-            <ul>
-              <li>3 Habitaciones</li>
-              <li>Baño común</li>
-              <li>Balcón</li>
-              <li>Cocina abierta con desayunador</li>
-              <li>Área de lavado</li>
-              <li>1 Parqueo</li>
-            </ul>
-          </div>
-        );
       default:
         return "";
     }
@@ -103,7 +82,6 @@ export const TipoApartamento = () => {
       <div className="tipo-apartamento-botones">
         <button onClick={() => handleTipoChange("A")}>Tipo A</button>
         <button onClick={() => handleTipoChange("B")}>Tipo B</button>
-        <button onClick={() => handleTipoChange("C")}>Tipo C</button>
       </div>
     </div>
   );

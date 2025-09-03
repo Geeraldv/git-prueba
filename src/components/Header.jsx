@@ -50,7 +50,7 @@ export const Header = ({ toggleSidebar }) => {
         </nav>
 
         <div className="title__header">
-          <h1 className="animate-text">Excelentes inmuebles comerciales</h1>
+          <h1 className="animate-text">Excelentes inversiones en inmuebles</h1>
         </div>
 
         <div className="container__cartas">
