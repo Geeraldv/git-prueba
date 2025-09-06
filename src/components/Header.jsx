@@ -67,7 +67,7 @@ export const Header = ({ toggleSidebar }) => {
           </div>
 
           <div className="carta1">
-            <Link to="/">
+            <Link to="/Terrazol2">
               <img src={terrazol2} alt="Imagen del proyecto Terrazas Park" />
             </Link>
 

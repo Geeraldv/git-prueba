@@ -26,6 +26,17 @@ import terrazolrenderimg5 from "../assets/img/IMG TERRAZOL 1/Terrazol1renderimg5
 import urlTerrazol1 from "../assets/pdf/BrochureTerrazol1.pdf";
 import useScrollToTop from "../hooks/useScrollToTop";
 
+import terrazol1img1 from "../assets/img/terrazol-1-img/A006_05212050_S001.webp";
+import terrazol1img2 from "../assets/img/terrazol-1-img/A006_05212051_S004.webp";
+import terrazol1img3 from "../assets/img/terrazol-1-img/A006_05212051_S008.webp";
+import terrazol1img4 from "../assets/img/terrazol-1-img/A006_05212053_S012.webp";
+import terrazol1img5 from "../assets/img/terrazol-1-img/A006_05212054_S015.webp";
+import terrazol1img6 from "../assets/img/terrazol-1-img/Cocina-2.webp";
+import terrazol1img7 from "../assets/img/terrazol-1-img/Cocina-3.webp";
+import terrazol1img8 from "../assets/img/terrazol-1-img/Hp2.webp";
+import terrazol1img9 from "../assets/img/terrazol-1-img/Sala-Comedor.webp";
+import terrazol1img10 from "../assets/img/terrazol-1-img/Sala.webp";
+
 import "./Terrazol1.css";
 export const Terrazol1 = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -61,7 +72,7 @@ export const Terrazol1 = () => {
             <div>
               <img
                 className="img__carousel"
-                src={terrazolrenderimg2}
+                src={terrazol1img1}
                 alt="Imagen 3"
                 loading="lazy"
               />
@@ -69,7 +80,7 @@ export const Terrazol1 = () => {
             <div>
               <img
                 className="img__carousel"
-                src={terrazolrenderimg3}
+                src={terrazol1img2}
                 alt="Carousel Terrazol 1"
                 loading="lazy"
               />
@@ -77,7 +88,7 @@ export const Terrazol1 = () => {
             <div>
               <img
                 className="img__carousel"
-                src={terrazolrenderimg4}
+                src={terrazol1img3}
                 alt="Carousel Terrazol 1"
                 loading="lazy"
               />
@@ -85,7 +96,7 @@ export const Terrazol1 = () => {
             <div>
               <img
                 className="img__carousel"
-                src={terrazolrenderimg5}
+                src={terrazol1img4}
                 alt="Carousel Terrazol 1"
                 loading="lazy"
               />
@@ -94,7 +105,7 @@ export const Terrazol1 = () => {
             <div>
               <img
                 className="img__carousel"
-                src={tipoA}
+                src={terrazol1img5}
                 alt="Carousel Terrazol 1"
                 loading="lazy"
               />
@@ -102,7 +113,7 @@ export const Terrazol1 = () => {
             <div>
               <img
                 className="img__carousel"
-                src={tipoB}
+                src={terrazol1img6}
                 alt="Carousel Terrazol 1"
                 loading="lazy"
               />
@@ -110,7 +121,7 @@ export const Terrazol1 = () => {
             <div>
               <img
                 className="img__carousel"
-                src={tipoC}
+                src={terrazol1img7}
                 alt="Carousel Terrazol 1"
                 loading="lazy"
               />
@@ -118,7 +129,7 @@ export const Terrazol1 = () => {
             <div>
               <img
                 className="img__carousel"
-                src={tipoD}
+                src={terrazol1img8}
                 alt="Carousel Terrazol 1"
                 loading="lazy"
               />
@@ -126,7 +137,7 @@ export const Terrazol1 = () => {
             <div>
               <img
                 className="img__carousel"
-                src={tipoE}
+                src={terrazol1img9}
                 alt="Carousel Terrazol 1"
                 loading="lazy"
               />
@@ -134,7 +145,7 @@ export const Terrazol1 = () => {
             <div>
               <img
                 className="img__carousel"
-                src={tipoF}
+                src={terrazol1img10}
                 alt="Carousel Terrazol 1"
                 loading="lazy"
               />
