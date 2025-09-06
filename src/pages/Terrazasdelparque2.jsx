@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Caracteristicas } from "../Layout/Caracteristicas";
 import { ContactMini } from "../components/ContactMini";
 import { DemoCarousel } from "../Layout/DemoCarousel";

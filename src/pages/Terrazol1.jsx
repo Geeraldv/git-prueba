@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Caracteristicas } from "../Layout/Caracteristicas";
 import { ContactMini } from "../components/ContactMini";
 import { DemoCarousel } from "../Layout/DemoCarousel";
@@ -43,7 +43,7 @@ export const Terrazol1 = () => {
       <NavBar toggleSidebar={toggleSidebar} />
       <SideBar isOpen={isSidebarOpen} closeSidebar={closeSidebar} />
       <DetallesUnidad
-        nombre="TERRAZOL I y II"
+        nombre="TERRAZOL I"
         ubicacion="Ciudad Juan Bosch"
         precio="Desde RD 3,260,000.00"
       />

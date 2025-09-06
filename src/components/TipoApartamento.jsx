@@ -1,9 +1,9 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import TipoApartamentoImgA from "../assets/img/TipoATerrazol.webp";
 import TipoApartamentoImgB from "../assets/img/TipoBTerrazol.webp";
 import TipoApartamentoImgC from "../assets/img/TipoCTerrazol.webp";
 
-import "../styles/TipoApartamento.css"; // Asegúrate de que la ruta del archivo CSS sea correcta
+import "../styles/TipoApartamento.css";
 
 export const TipoApartamento = () => {
   const [tipo, setTipo] = useState("A");
@@ -37,10 +37,12 @@ export const TipoApartamento = () => {
             <p>De 85 a 93 mts</p>
             <ul>
               <li>3 Habitaciones</li>
-              <li>2 Baños</li>
-              <li>Balcon</li>
-              <li>1 Parqueo</li>
+              <li>Walking closet y baño en habitación principal</li>
               <li>Baño común</li>
+              <li>Balcón</li>
+              <li>Cocina abierta con desayunador</li>
+              <li>Área de lavado</li>
+              <li>1 Parqueo</li>
             </ul>
           </div>
         );
@@ -54,9 +56,11 @@ export const TipoApartamento = () => {
             <p>De 77 a 82 mts</p>
             <ul>
               <li>3 Habitaciones</li>
-              <li>2 Baños</li>
-              <li>Balcon</li>
               <li>Walking closet y baño en habitación principal</li>
+              <li>Baño común</li>
+              <li>Balcón</li>
+              <li>Cocina abierta con desayunador</li>
+              <li>Área de lavado</li>
               <li>1 Parqueo</li>
             </ul>
           </div>
@@ -71,8 +75,10 @@ export const TipoApartamento = () => {
             <p>De 65 a 72 mts</p>
             <ul>
               <li>3 Habitaciones</li>
-              <li>1 Baño</li>
-              <li>Balcon</li>
+              <li>Baño común</li>
+              <li>Balcón</li>
+              <li>Cocina abierta con desayunador</li>
+              <li>Área de lavado</li>
               <li>1 Parqueo</li>
             </ul>
           </div>

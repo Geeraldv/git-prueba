@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import TipoApartamentoImgA from "../assets/img/Terrazadelparque1TipoA.webp";
 import TipoApartamentoImgB from "../assets/img/Terrazadelparque1TipoB.webp";
 import TipoApartamentoImgC from "../assets/img/Terrazadelparque1TipoC.webp";
