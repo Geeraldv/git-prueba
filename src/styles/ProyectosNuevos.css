@@ -1,0 +1,237 @@
+.container-padre {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+.titulo-principal {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #e74c3c;
+  font-weight: bold;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.seccion-categoria {
+  margin-bottom: 50px;
+}
+
+.titulo-categoria {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.grid-proyectos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  justify-items: start;
+  position: relative;
+}
+
+/* Estilos para los Links - ESTA ES LA CORRECCIÓN PRINCIPAL */
+.grid-proyectos a {
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.tarjeta {
+  width: 100%;
+  height: 280px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.tarjeta:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+.tarjeta::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 1;
+}
+
+/* Imágenes de fondo para cada proyecto */
+.terrazol-1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.095), rgba(0, 0, 0, 0.178)),
+    url("../assets/img/terrazol1img.webp");
+}
+
+.terrazol-2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.088), rgba(0, 0, 0, 0.178)),
+    url("../assets/img/Terrazol-2/EntradaTerrazol2.webp");
+}
+
+.terrazas-parque-1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)),
+    url("../assets/img/Terrazasdelparque1/TP7.webp");
+}
+
+.terrazas-parque-2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.09), rgba(0, 0, 0, 0.107)),
+    url("../assets/img/terrazasdelparque2/13.webp");
+}
+
+.terrazas-parque-3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)),
+    url("../assets/img/terrazasdelparque3/TDP-PLANTACONJUNTO.webp");
+}
+
+.ciudad-prado {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.053), rgba(0, 0, 0, 0.208)),
+    url("../assets/img/ciudaddelprado/CDP-PLANTACONJUNTO.webp");
+}
+
+.parque-verde {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.094), rgba(0, 0, 0, 0.135)),
+    url("../assets/img/parqueverde/parque-verde01.webp");
+}
+
+.esquina {
+  position: absolute;
+  color: #fff;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  z-index: 2;
+}
+
+.esquina-superior-izquierda {
+  top: 20px;
+  left: 20px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.esquina-superior-derecha {
+  top: 20px;
+  right: 20px;
+  padding: 8px 15px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.esquina-inferior-derecha {
+  bottom: 20px;
+  right: 20px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.material-icons {
+  color: #fff;
+  margin-right: 5px;
+}
+
+/* Estados de los proyectos */
+.estado-entrega {
+  background-color: #e74c3c;
+}
+.estado-ejecucion {
+  background-color: #f39c12;
+}
+.estado-planos {
+  background-color: #335b74;
+}
+.estado-entregado {
+  background-color: rgba(168, 168, 168, 0.76);
+}
+
+.titulo-proyecto {
+  text-align: center;
+  margin-top: 15px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .grid-proyectos {
+    grid-template-columns: 1fr;
+    gap: 15px;
+    justify-items: start;
+  }
+
+  .grid-proyectos a {
+    max-width: 100%;
+  }
+
+  .tarjeta {
+    height: 240px;
+  }
+
+  .titulo-principal {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+
+  .titulo-categoria {
+    font-size: 1.2rem;
+  }
+
+  .esquina {
+    font-size: 12px;
+  }
+
+  .esquina-superior-izquierda {
+    top: 15px;
+    left: 15px;
+  }
+
+  .esquina-superior-derecha {
+    top: 15px;
+    right: 15px;
+    font-size: 10px;
+  }
+
+  .esquina-inferior-derecha {
+    bottom: 15px;
+    right: 15px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .tarjeta {
+    height: 200px;
+  }
+
+  .titulo-principal {
+    font-size: 1.5rem;
+  }
+
+  .esquina {
+    font-size: 10px;
+  }
+
+  .esquina-inferior-derecha {
+    font-size: 12px;
+  }
+}

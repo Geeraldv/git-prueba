@@ -11,19 +11,7 @@ import { VideoProyectos } from "../components/VideoProyectos";
 import { SideBar } from "../components/SideBar";
 import { ButtonBrochure } from "../Layout/ButtonBrochure";
 import checkblue from "../assets/svg/Checkblue.svg";
-import img2terrazadelparque2 from "../assets/img/terrazasdelparque2/2.webp";
-import img3terrazadelparque2 from "../assets/img/terrazasdelparque2/3.webp";
-import img4terrazadelparque2 from "../assets/img/terrazasdelparque2/4.webp";
-import img5terrazadelparque2 from "../assets/img/terrazasdelparque2/5.webp";
-import img6terrazadelparque2 from "../assets/img/terrazasdelparque2/6.webp";
-import img7terrazadelparque2 from "../assets/img/terrazasdelparque2/7.webp";
-import img8terrazadelparque2 from "../assets/img/terrazasdelparque2/8.webp";
-import img9terrazadelparque2 from "../assets/img/terrazasdelparque2/9.webp";
-import img10terrazadelparque2 from "../assets/img/terrazasdelparque2/10.webp";
-import img11terrazadelparque2 from "../assets/img/terrazasdelparque2/11.webp";
-import img12terrazadelparque2 from "../assets/img/terrazasdelparque2/12.webp";
-import img13terrazadelparque2 from "../assets/img/terrazasdelparque2/13.webp";
-import img14terrazadelparque2 from "../assets/img/terrazasdelparque2/Apto (1).webp";
+import img13terrazadelparque3 from "../assets/img/terrazasdelparque3/TDP-PLANTACONJUNTO.webp";
 import urlTerrazaDelParque2 from "../assets/pdf/brochureTerrazasDelParque2.pdf";
 import useScrollToTop from "../hooks/useScrollToTop";
 import { TipoDeApartamentoTerrazas3 } from "../components/TipoDeApartamentoTerrazas3";
@@ -55,104 +43,7 @@ export const Terrazasdelparque3 = () => {
             <div>
               <img
                 className="img__carousel"
-                src={img13terrazadelparque2}
-                alt="Carousel Terrazas del parque 2"
-                loading="lazy"
-              />
-            </div>
-            <div>
-              <img
-                className="img__carousel"
-                src={img3terrazadelparque2}
-                alt="Carousel Terrazas del parque 2"
-                loading="lazy"
-              />
-            </div>
-            <div>
-              <img
-                className="img__carousel"
-                src={img4terrazadelparque2}
-                alt="Carousel Terrazas del parque 2"
-                loading="lazy"
-              />
-            </div>
-            <div>
-              <img
-                className="img__carousel"
-                src={img5terrazadelparque2}
-                alt="Carousel Terrazas del parque 2"
-                loading="lazy"
-              />
-            </div>
-            <div>
-              <img
-                className="img__carousel"
-                src={img6terrazadelparque2}
-                alt="Carousel Terrazas del parque 2"
-                loading="lazy"
-              />
-            </div>
-
-            <div>
-              <img
-                className="img__carousel"
-                src={img7terrazadelparque2}
-                alt="Carousel Terrazas del parque 2"
-                loading="lazy"
-              />
-            </div>
-            <div>
-              <img
-                className="img__carousel"
-                src={img8terrazadelparque2}
-                alt="Carousel Terrazas del parque 2"
-                loading="lazy"
-              />
-            </div>
-            <div>
-              <img
-                className="img__carousel"
-                src={img9terrazadelparque2}
-                alt="Carousel Terrazas del parque 2"
-                loading="lazy"
-              />
-            </div>
-            <div>
-              <img
-                className="img__carousel"
-                src={img10terrazadelparque2}
-                alt="Carousel Terrazas del parque 2"
-                loading="lazy"
-              />
-            </div>
-            <div>
-              <img
-                className="img__carousel"
-                src={img11terrazadelparque2}
-                alt="Carousel Terrazas del parque 2"
-                loading="lazy"
-              />
-            </div>
-            <div>
-              <img
-                className="img__carousel"
-                src={img12terrazadelparque2}
-                alt="Carousel Terrazas del parque 2"
-                loading="lazy"
-              />
-            </div>
-            <div>
-              <img
-                className="img__carousel"
-                src={img2terrazadelparque2}
-                alt="Carousel Terrazas del parque 2"
-                loading="lazy"
-              />
-            </div>
-            <div>
-              <img
-                className="img__carousel"
-                src={img14terrazadelparque2}
+                src={img13terrazadelparque3}
                 alt="Carousel Terrazas del parque 2"
                 loading="lazy"
               />
@@ -206,7 +97,7 @@ export const Terrazasdelparque3 = () => {
           <TipoDeApartamentoTerrazas3 />
           <ButtonBrochure url={urlTerrazaDelParque2} />
           <Mapa mapSrc="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d2357.5907368309777!2d-69.9356959!3d18.5524044!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTjCsDMzJzEyLjUiTiA2OcKwNTYnMDUuOCJX!5e1!3m2!1ses-419!2sdo!4v1756873700447!5m2!1ses-419!2sdo" />
-          <VideoProyectos videoSrc="https://www.youtube.com/embed/NxoUmFqaA3o?si=odKuEMwaCjCxQP-C" />
+          <VideoProyectos videoSrc="https://www.youtube.com/embed/NxoUmo?" />
         </div>
         <div className="colunm-detalles-2">
           <ContactMini />

@@ -1,6 +1,6 @@
 import { useState } from "react";
-import TipoApartamentoImgA from "../assets/img/Terrazadelparque1TipoA.webp";
-import TipoApartamentoImgB from "../assets/img/Terrazadelparque1TipoB.webp";
+import TipoApartamentoImgA from "../assets/img/ciudaddelprado/TIPOACDP-APTO70M2_000.webp";
+import TipoApartamentoImgB from "../assets/img/ciudaddelprado/TIPOBCDP-APTO60M2_000.webp";
 
 import "../styles/TipoApartamento.css"; // Asegúrate de que la ruta del archivo CSS sea correcta
 

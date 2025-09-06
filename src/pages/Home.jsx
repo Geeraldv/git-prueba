@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Header } from "../components/Header";
 import { AcercaDe } from "../components/AcercaDe";
-import { BuenasManos } from "../components/BuenasManos";
+
 import { Testimonios } from "../components/Testimonios";
 import { Contacto } from "../components/Contacto";
 import { SideBar } from "../components/SideBar";
@@ -11,6 +11,7 @@ import useScrollToTop from "../hooks/useScrollToTop";
 
 import { FloatingWhatsApp } from "react-floating-whatsapp";
 import "./Home.css";
+import { ProyectosNuevos } from "../components/ProyectosNuevos";
 
 export const Home = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -42,7 +43,8 @@ export const Home = () => {
       <Header toggleSidebar={toggleSidebar} />
       <SideBar isOpen={isSidebarOpen} closeSidebar={closeSidebar} />
       <AcercaDe />
-      <Proyectos />
+      {/* <Proyectos /> */}
+      <ProyectosNuevos />
       <Testimonios />
       <Contacto />
       <Footer />

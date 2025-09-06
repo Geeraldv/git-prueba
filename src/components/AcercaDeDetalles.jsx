@@ -6,11 +6,11 @@ import terrazasdelparquelogo from "../assets/img/TerrazasDelParqueLogo.webp";
 import terrazolLogo from "../assets/img/LogoTerrazol1.webp";
 import { Carousel } from "react-responsive-carousel";
 
-import img1 from "../assets/img/Terrazas del parque 1/TP1.webp";
-import img2 from "../assets/img/Terrazas del parque 1/TP2.webp";
-import img3 from "../assets/img/Terrazas del parque 1/TP3.webp";
-import img4 from "../assets/img/Terrazas del parque 1/TP4.webp";
-import img5 from "../assets/img/Terrazas del parque 1/TP5.webp";
+import img1 from "../assets/img/Terrazasdelparque1/TP1.webp";
+import img2 from "../assets/img/Terrazasdelparque1/TP2.webp";
+import img3 from "../assets/img/Terrazasdelparque1/TP3.webp";
+import img4 from "../assets/img/Terrazasdelparque1/TP4.webp";
+import img5 from "../assets/img/Terrazasdelparque1/TP5.webp";
 
 export const AcercaDeDetalles = () => {
   return (

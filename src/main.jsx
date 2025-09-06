@@ -10,6 +10,7 @@ import { Terrazasdelparque1 } from "./pages/Terrazasdelparque1";
 import { Terrazasdelparque2 } from "./pages/Terrazasdelparque2";
 import { Terrazasdelparque3 } from "./pages/Terrazasdelparque3";
 import { CiudadDelPrado } from "./pages/CiudadDelprado";
+import { ParqueVerde } from "./pages/ParqueVerde";
 
 const BrowserRouter = createBrowserRouter([
   {
@@ -46,6 +47,10 @@ const BrowserRouter = createBrowserRouter([
   {
     path: "/CiudadDelprado",
     element: <CiudadDelPrado />,
+  },
+  {
+    path: "/ParqueVerde",
+    element: <ParqueVerde />,
   },
 ]);
 

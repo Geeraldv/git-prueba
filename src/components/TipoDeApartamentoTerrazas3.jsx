@@ -287,10 +287,10 @@
 
 import { useState } from "react";
 import TipoApartamentoImgA from "../assets/img/Terrazadelparque1TipoA.webp";
-import TipoApartamentoImgB from "../assets/img/Terrazadelparque1TipoB.webp";
+import TipoApartamentoImgB from "../assets/img/terrazasdelparque3/APTOB.webp";
 import TipoApartamentoImgC from "../assets/img/Terrazadelparque1TipoC.webp";
-import TipoApartamentoImgD from "../assets/img/Terrazadelparque1TipoD.webp";
-import TipoApartamentoImgPH from "../assets/img/Terrazadelparque1TipoPHD.webp";
+import TipoApartamentoImgD from "../assets/img/terrazasdelparque3/APTOD.webp";
+import TipoApartamentoImgPH from "../assets/img/terrazasdelparque3/APTOA-PH.webp";
 
 import "../styles/TipoApartamento.css";
 

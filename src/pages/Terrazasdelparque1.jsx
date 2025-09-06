@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Caracteristicas } from "../Layout/Caracteristicas";
 import { ContactMini } from "../components/ContactMini";
 import { DemoCarousel } from "../Layout/DemoCarousel";
@@ -12,12 +12,12 @@ import { TipoDeApartamentoTerrazas1 } from "../components/TipoDeApartamentoTerra
 import { SideBar } from "../components/SideBar";
 import { ButtonBrochure } from "../Layout/ButtonBrochure";
 import checkblue from "../assets/svg/Checkblue.svg";
-import tp1 from "../assets/img/Terrazas del parque 1/TP1.webp";
-import tp2 from "../assets/img/Terrazas del parque 1/TP2.webp";
-import tp3 from "../assets/img/Terrazas del parque 1/TP3.webp";
-import tp4 from "../assets/img/Terrazas del parque 1/TP4.webp";
-import tp5 from "../assets/img/Terrazas del parque 1/TP5.webp";
-import tp6 from "../assets/img/Terrazas del parque 1/TP6.webp";
+import tp1 from "../assets/img/Terrazasdelparque1/TP1.webp";
+import tp2 from "../assets/img/Terrazasdelparque1/TP2.webp";
+import tp3 from "../assets/img/Terrazasdelparque1/TP3.webp";
+import tp4 from "../assets/img/Terrazasdelparque1/TP4.webp";
+import tp5 from "../assets/img/Terrazasdelparque1/TP5.webp";
+import tp6 from "../assets/img/Terrazasdelparque1/TP6.webp";
 import urlTerrazaDelParque1 from "../assets/pdf/brochureTerrazaDelParque1.pdf";
 import useScrollToTop from "../hooks/useScrollToTop";
 

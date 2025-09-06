@@ -6,6 +6,7 @@ import imgTerrazasPark from "../assets/img/imgTerrazasPark.webp";
 import { UilAlignJustify } from "@iconscout/react-unicons";
 import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
+import terrazol2 from "../assets/img/Terrazol-2/EntradaTerrazol2.webp";
 
 import "../styles/Header.css";
 
@@ -67,14 +68,11 @@ export const Header = ({ toggleSidebar }) => {
 
           <div className="carta1">
             <Link to="/">
-              <img
-                src={imgTerrazasPark}
-                alt="Imagen del proyecto Terrazas Park"
-              />
+              <img src={terrazol2} alt="Imagen del proyecto Terrazas Park" />
             </Link>
 
-            <h3 className="animate-text">Terrazas Park</h3>
-            <p>Proyecto COMERCIAL</p>
+            <h3 className="animate-text">Residencial Terrazol II</h3>
+            <p>Proyecto RESIDENCIAL</p>
           </div>
 
           <div className="carta1">

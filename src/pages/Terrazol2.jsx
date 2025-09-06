@@ -11,18 +11,15 @@ import { VideoProyectos } from "../components/VideoProyectos";
 import { SideBar } from "../components/SideBar";
 import { ButtonBrochure } from "../Layout/ButtonBrochure";
 import checkblue from "../assets/svg/Checkblue.svg";
-import tipoA from "../assets/img/RENDERS TERRAZOL 1/Apto (1).webp";
-import tipoB from "../assets/img/RENDERS TERRAZOL 1/Apto_Tipo A_1.webp";
-import tipoC from "../assets/img/RENDERS TERRAZOL 1/Apto_Tipo A_3.webp";
-import tipoD from "../assets/img/RENDERS TERRAZOL 1/Apto_Tipo B (1).webp";
-import tipoE from "../assets/img/RENDERS TERRAZOL 1/Apto_Tipo B_1 (1).webp";
-import tipoF from "../assets/img/RENDERS TERRAZOL 1/Apto_Tipo B_3.webp";
-import terrazolrenderimg from "../assets/img/IMG TERRAZOL 1/Terrazol1renderimg1.webp";
-import terrazolrenderimg2 from "../assets/img/IMG TERRAZOL 1/Terrazol1renderimg2.webp";
-import terrazolrenderimg3 from "../assets/img/IMG TERRAZOL 1/Terrazol1renderimg3.webp";
-import terrazolrenderimg4 from "../assets/img/IMG TERRAZOL 1/Terrazol1renderimg4.webp";
-import terrazolrenderimg5 from "../assets/img/IMG TERRAZOL 1/Terrazol1renderimg5.webp";
+
 import urlTerrazol1 from "../assets/pdf/BrochureTerrazol1.pdf";
+
+import terrazol2renderimg from "../assets/img/Terrazol-2/EntradaTerrazol2.webp";
+import terrazol2renderimg2 from "../assets/img/Terrazol-2/Render-Terrazol II_Cancha.webp";
+import terrazol2renderimg3 from "../assets/img/Terrazol-2/Render-TZ2-Master Plan(2).webp";
+import terrazol2renderimg4 from "../assets/img/Terrazol-2/Render-TZ2-Master Plan(3).webp";
+import terrazol2renderimg6 from "../assets/img/Terrazol-2/Terrazol II_Area verde (1).webp";
+
 import useScrollToTop from "../hooks/useScrollToTop";
 
 import "./Terrazol1.css";
@@ -53,7 +50,7 @@ export const Terrazol2 = () => {
             <div>
               <img
                 className="img__carousel"
-                src={terrazolrenderimg}
+                src={terrazol2renderimg}
                 alt="Carousel Terrazol 1"
                 loading="lazy"
               />
@@ -61,7 +58,7 @@ export const Terrazol2 = () => {
             <div>
               <img
                 className="img__carousel"
-                src={terrazolrenderimg2}
+                src={terrazol2renderimg2}
                 alt="Imagen 3"
                 loading="lazy"
               />
@@ -69,7 +66,7 @@ export const Terrazol2 = () => {
             <div>
               <img
                 className="img__carousel"
-                src={terrazolrenderimg3}
+                src={terrazol2renderimg3}
                 alt="Carousel Terrazol 1"
                 loading="lazy"
               />
@@ -77,7 +74,7 @@ export const Terrazol2 = () => {
             <div>
               <img
                 className="img__carousel"
-                src={terrazolrenderimg4}
+                src={terrazol2renderimg4}
                 alt="Carousel Terrazol 1"
                 loading="lazy"
               />
@@ -85,56 +82,7 @@ export const Terrazol2 = () => {
             <div>
               <img
                 className="img__carousel"
-                src={terrazolrenderimg5}
-                alt="Carousel Terrazol 1"
-                loading="lazy"
-              />
-            </div>
-
-            <div>
-              <img
-                className="img__carousel"
-                src={tipoA}
-                alt="Carousel Terrazol 1"
-                loading="lazy"
-              />
-            </div>
-            <div>
-              <img
-                className="img__carousel"
-                src={tipoB}
-                alt="Carousel Terrazol 1"
-                loading="lazy"
-              />
-            </div>
-            <div>
-              <img
-                className="img__carousel"
-                src={tipoC}
-                alt="Carousel Terrazol 1"
-                loading="lazy"
-              />
-            </div>
-            <div>
-              <img
-                className="img__carousel"
-                src={tipoD}
-                alt="Carousel Terrazol 1"
-                loading="lazy"
-              />
-            </div>
-            <div>
-              <img
-                className="img__carousel"
-                src={tipoE}
-                alt="Carousel Terrazol 1"
-                loading="lazy"
-              />
-            </div>
-            <div>
-              <img
-                className="img__carousel"
-                src={tipoF}
+                src={terrazol2renderimg6}
                 alt="Carousel Terrazol 1"
                 loading="lazy"
               />
