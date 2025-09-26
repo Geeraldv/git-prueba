@@ -12,7 +12,7 @@ import { SideBar } from "../components/SideBar";
 import { ButtonBrochure } from "../Layout/ButtonBrochure";
 import checkblue from "../assets/svg/Checkblue.svg";
 import ciudaddelpradoimg1 from "../assets/img/ciudaddelprado/CDP-PLANTACONJUNTO.webp";
-import ciudaddelpradoimg2 from "../assets/img/ciudaddelprado/CDP-PLANTACONJUNTO_FULL_000.png";
+import ciudaddelpradoimg2 from "../assets/img/ciudaddelprado/CDP-PLANTA-CONJUNTO_FULL_000.webp";
 import urlTerrazol1 from "../assets/pdf/BrochureTerrazol1.pdf";
 import useScrollToTop from "../hooks/useScrollToTop";
 
