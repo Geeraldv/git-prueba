@@ -42,7 +42,7 @@ export const Terrazol2 = () => {
       <DetallesUnidad
         nombre="TERRAZOL II"
         ubicacion="Ciudad Juan Bosch"
-        precio="Desde RD 3,260,000.00"
+        precio=""
       />
       <div className="Detalles-proyectos">
         <div className="colunm-detalles-1">
@@ -134,7 +134,7 @@ export const Terrazol2 = () => {
           <TipoApartamentoTerrazol2 />
           <ButtonBrochure url={urlTerrazol1} />
           <Mapa mapSrc="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3428.9682376206442!2d-69.73982769999999!3d18.4977321!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eaf810e8c055537%3A0x314f7479e44eeb4e!2sResidencial%20Terrazol%202!5e1!3m2!1ses-419!2sdo!4v1756871915767!5m2!1ses-419!2sdo" />
-          <VideoProyectos videoSrc="https://www.youtube.com/embed/3HTual5sq7Q?si=_nyAS4vVPw5l0KCU" />
+          <VideoProyectos videoSrc="https://www.youtube.com/embed/tpC0lfr_Q5I?si=M_mx6ApIfRHED1Ly" />
         </div>
         <div className="colunm-detalles-2">
           <ContactMini />
