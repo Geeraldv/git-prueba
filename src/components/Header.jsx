@@ -75,7 +75,7 @@ export const Header = ({ toggleSidebar }) => {
             <p>Proyecto RESIDENCIAL</p>
           </div>
 
-          <div className="carta1">
+          {/* <div className="carta1">
             <Link to="./Terrazasdelparque2">
               <img
                 src={imgterrazasdelparque2}
@@ -84,7 +84,7 @@ export const Header = ({ toggleSidebar }) => {
             </Link>
             <h3 className="animate-text">Terrazas del Parque 2</h3>
             <p>Proyecto RESIDENCIAL</p>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

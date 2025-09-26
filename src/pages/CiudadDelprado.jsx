@@ -12,6 +12,7 @@ import { SideBar } from "../components/SideBar";
 import { ButtonBrochure } from "../Layout/ButtonBrochure";
 import checkblue from "../assets/svg/Checkblue.svg";
 import ciudaddelpradoimg1 from "../assets/img/ciudaddelprado/CDP-PLANTACONJUNTO.webp";
+import ciudaddelpradoimg2 from "../assets/img/ciudaddelprado/CDP-PLANTACONJUNTO_FULL_000.png";
 import urlTerrazol1 from "../assets/pdf/BrochureTerrazol1.pdf";
 import useScrollToTop from "../hooks/useScrollToTop";
 
@@ -44,6 +45,14 @@ export const CiudadDelPrado = () => {
               <img
                 className="img__carousel"
                 src={ciudaddelpradoimg1}
+                alt="Carousel Terrazol 1"
+                loading="lazy"
+              />
+            </div>
+            <div>
+              <img
+                className="img__carousel"
+                src={ciudaddelpradoimg2}
                 alt="Carousel Terrazol 1"
                 loading="lazy"
               />

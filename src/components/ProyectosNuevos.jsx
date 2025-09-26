@@ -25,9 +25,9 @@ export const ProyectosNuevos = () => {
               <div className="esquina esquina-superior-derecha estado-entrega">
                 En Entrega
               </div>
-              <div className="esquina esquina-inferior-derecha">
+              {/* <div className="esquina esquina-inferior-derecha">
                 Desde RD $3,260,000.00
-              </div>
+              </div> */}
             </div>
           </Link>
         </div>
@@ -79,9 +79,9 @@ export const ProyectosNuevos = () => {
               <div className="esquina esquina-superior-derecha estado-planos">
                 En Planos
               </div>
-              <div className="esquina esquina-inferior-derecha">
+              {/* <div className="esquina esquina-inferior-derecha">
                 Desde US$178,000.00
-              </div>
+              </div> */}
             </div>
           </Link>
 
