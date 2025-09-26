@@ -76,9 +76,9 @@ export const Footer = () => {
           <li>
             <Link to="/Terrazol1">Terrazol I</Link>
           </li>
-          <li>
+          {/* <li>
             <a href="#punto2">Terrazas Park</a>
-          </li>
+          </li> */}
           <li>
             <Link to="/Terrazasdelparque1">Terrazas Del Parque I</Link>
           </li>

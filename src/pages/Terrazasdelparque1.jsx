@@ -40,7 +40,7 @@ export const Terrazasdelparque1 = () => {
       <DetallesUnidad
         nombre="TERRAZAS DEL PARQUE 1"
         ubicacion="Santo Domingo Norte, Ciudad Modelo"
-        precio="DESDE US$117,000"
+        precio=""
       />
       <div className="Detalles-proyectos">
         <div className="colunm-detalles-1">
