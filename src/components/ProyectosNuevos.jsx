@@ -3,7 +3,7 @@ import "../styles/ProyectosNuevos.css";
 
 export const ProyectosNuevos = () => {
   return (
-    <div className="container-padre">
+    <div id="Proyectos" className="container-padre">
       <div className="seccion-categoria">
         <h2 className="titulo-categoria">En Entrega</h2>
         <div className="grid-proyectos">
@@ -148,9 +148,9 @@ export const ProyectosNuevos = () => {
               <div className="esquina esquina-superior-derecha estado-entregado">
                 Entregado
               </div>
-              <div className="esquina esquina-inferior-derecha">
+              {/* <div className="esquina esquina-inferior-derecha">
                 Desde US$117,000
-              </div>
+              </div> */}
             </div>
           </Link>
           <Link to="/ParqueVerde">
