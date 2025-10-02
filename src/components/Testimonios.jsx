@@ -3,6 +3,10 @@ import raya from "../assets/img/raya.webp";
 import vizcaino from "../assets/img/vizcaino.webp";
 import pedroLopez from "../assets/img/pedroLopez.webp";
 import garciaCapellan from "../assets/img/garciaCapellan.webp";
+import entrega1 from "../assets/img/entregas/entrega1.webp";
+import entrega2 from "../assets/img/entregas/entrega2.webp";
+import entrega3 from "../assets/img/entregas/entrega3.webp";
+import entrega4 from "../assets/img/entregas/entrega4.webp";
 
 export const Testimonios = () => {
   return (
@@ -72,6 +76,52 @@ export const Testimonios = () => {
             <div className="testimonios__card__body__text">
               <h3>Familia García Capellán</h3>
               <p>Cliente</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="testimonios__bento-grid">
+        <div className="testimonios__bento-grid__large">
+          <img
+            src={entrega1 || "/placeholder.svg"}
+            loading="lazy"
+            alt="Entrega de apartamento - Familia celebrando"
+          />
+          <div className="testimonios__bento-grid__overlay">
+            <h3>Momentos de Entrega</h3>
+            <p>Familias felices recibiendo sus nuevos hogares</p>
+          </div>
+        </div>
+        <div className="testimonios__bento-grid__small-container">
+          <div className="testimonios__bento-grid__small">
+            <img
+              src={entrega2 || "/placeholder.svg"}
+              loading="lazy"
+              alt="Entrega de apartamento - Celebración"
+            />
+            <div className="testimonios__bento-grid__overlay">
+              <h3>Sueños Cumplidos</h3>
+            </div>
+          </div>
+          <div className="testimonios__bento-grid__small">
+            <img
+              src={entrega3 || "/placeholder.svg"}
+              loading="lazy"
+              alt="Entrega de apartamento - En la cocina"
+            />
+            <div className="testimonios__bento-grid__overlay">
+              <h3>Nuevos Hogares</h3>
+            </div>
+          </div>
+          <div className="testimonios__bento-grid__small">
+            <img
+              src={entrega4 || "/placeholder.svg"}
+              loading="lazy"
+              alt="Entrega de apartamento - Familia completa"
+            />
+            <div className="testimonios__bento-grid__overlay">
+              <h3>Nuevos Comienzos</h3>
             </div>
           </div>
         </div>
